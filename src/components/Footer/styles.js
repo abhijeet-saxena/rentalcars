@@ -7,8 +7,8 @@ export const FooterContainer = styled(Flex)`
     text-align: center;
     align-items: center;
     font-size: 14px;
+    padding-bottom: 2rem;
     @media (min-width: 768px) {
-        font-size: 16px;
     }
 `;
 
@@ -21,9 +21,8 @@ export const LinksContainer = styled(Flex)`
     @media (min-width: 768px) {
         flex-direction: row;
         justify-content: center;
-        font-size: 16px;
         > a {
-            margin: 0 1rem;
+            margin: 0.5rem;
         }
     }
 `;
@@ -31,7 +30,7 @@ export const LinksContainer = styled(Flex)`
 export const ImagesContainer = styled(Flex)`
     justify-content: space-between;
     background: transparent;
-    width: 75vw;
+    width: 70vw;
     margin: 0 auto;
     @media (max-width: 768px) {
         display: none;

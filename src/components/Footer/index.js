@@ -13,32 +13,16 @@ const Footer = () => {
     return (
         <FooterContainer>
             <LinksContainer>
-                <Link href="#" padding="0.5rem 0">
-                    Privacy Notice
-                </Link>
-                <Link href="#" padding="0.5rem 0">
-                    Cookies
-                </Link>
-                <Link href="#" padding="0.5rem 0">
-                    Terms & Conditions
-                </Link>
-                <Link href="#" padding="0.5rem 0">
-                    Help
-                </Link>
-                <Link href="#" padding="0.5rem 0">
-                    Modern Slavery Statement
-                </Link>
-                <Link href="#" padding="0.5rem 0">
-                    Supply Partner Enquiry and Marketplace
-                </Link>
-                <Link href="#" padding="0.5rem 0">
-                    Affiliate Programme
-                </Link>
-                <Link href="#" padding="0.5rem 0">
-                    Careers
-                </Link>
+                <Link href="#">Privacy Notice</Link>
+                <Link href="#">Cookies</Link>
+                <Link href="#">Terms & Conditions</Link>
+                <Link href="#">Help</Link>
+                <Link href="#">Modern Slavery Statement</Link>
+                <Link href="#">Supply Partner Enquiry and Marketplace</Link>
+                <Link href="#">Affiliate Programme</Link>
+                <Link href="#">Careers</Link>
             </LinksContainer>
-            <Box width="80%" margin="1rem 0">
+            <Box width="70vw" margin="1rem 0">
                 Rentalcars.com is a trading name of Booking.com Transport
                 Limited which is a limited company registered in England and
                 Wales (Number: 05179829) whose registered address is at 100 New
