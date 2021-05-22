@@ -2,6 +2,21 @@
     "name": "rentalcars",
     "homepage": "/rentalcars/",
     "version": "0.1.0",
+    "license": "MIT",
+    "description": "Landing page for RentalCars.com",
+    "keywords": [
+        "react",
+        "javascript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itsRockyy/rentalcars.git"
+    },
+    "author": {
+        "name": "Abhijeet Saxena",
+        "email": "saxenaabhijeet@outlook.com",
+        "url": "https://github.com/itsRockyy"
+    },
     "private": true,
     "scripts": {
         "start": "react-scripts start",
@@ -10,7 +25,8 @@
         "eject": "react-scripts eject",
         "deploy": "npm run build && gh-pages -d build",
         "prettier": "prettier --write .",
-        "lint": "eslint --ignore-path .gitignore ."
+        "lint": "eslint --ignore-path .gitignore .",
+        "analyze": "source-map-explorer 'build/static/js/*.js'"
     },
     "dependencies": {
         "@testing-library/jest-dom": "^5.12.0",
@@ -20,6 +36,7 @@
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-scripts": "4.0.3",
+        "source-map-explorer": "^2.5.2",
         "web-vitals": "^1.1.2"
     },
     "eslintConfig": {
