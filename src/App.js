@@ -1,16 +1,15 @@
-import styled from 'styled-components';
-
-const Title = styled.h1`
-    font-size: 1.5em;
-    text-align: center;
-    color: pink;
-`;
+import { Flex } from './common/components';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
     return (
-        <div className="App">
-            <Title>Hello World !!!</Title>
-        </div>
+        <Flex flexDirection="column" width="100vw">
+            <Header />
+            <Main />
+            <Footer />
+        </Flex>
     );
 }
 
