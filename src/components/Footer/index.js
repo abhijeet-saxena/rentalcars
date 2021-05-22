@@ -1,26 +1,41 @@
 import React from 'react';
-import { Box, Link } from '../../common/components';
+import { Box, Link, colors } from '../../common/components';
 import { FooterContainer, LinksContainer, ImagesContainer } from './styles';
-
-import booking from '../../assets/images/booking.png';
-import priceline from '../../assets/images/priceline.png';
-import kayak from '../../assets/images/kayak.png';
-import agoda from '../../assets/images/agoda.png';
-import rentalcars from '../../assets/images/rentalcars.png';
-import opentable from '../../assets/images/opentable.png';
+import booking from '../../assets/images/footer/booking.png';
+import priceline from '../../assets/images/footer/priceline.png';
+import kayak from '../../assets/images/footer/kayak.png';
+import agoda from '../../assets/images/footer/agoda.png';
+import rentalcars from '../../assets/images/footer/rentalcars.png';
+import opentable from '../../assets/images/footer/opentable.png';
 
 const Footer = () => {
     return (
         <FooterContainer>
             <LinksContainer>
-                <Link href="#">Privacy Notice</Link>
-                <Link href="#">Cookies</Link>
-                <Link href="#">Terms & Conditions</Link>
-                <Link href="#">Help</Link>
-                <Link href="#">Modern Slavery Statement</Link>
-                <Link href="#">Supply Partner Enquiry and Marketplace</Link>
-                <Link href="#">Affiliate Programme</Link>
-                <Link href="#">Careers</Link>
+                <Link href="#" color={colors.textLight}>
+                    Privacy Notice
+                </Link>
+                <Link href="#" color={colors.textLight}>
+                    Cookies
+                </Link>
+                <Link href="#" color={colors.textLight}>
+                    Terms & Conditions
+                </Link>
+                <Link href="#" color={colors.textLight}>
+                    Help
+                </Link>
+                <Link href="#" color={colors.textLight}>
+                    Modern Slavery Statement
+                </Link>
+                <Link href="#" color={colors.textLight}>
+                    Supply Partner Enquiry and Marketplace
+                </Link>
+                <Link href="#" color={colors.textLight}>
+                    Affiliate Programme
+                </Link>
+                <Link href="#" color={colors.textLight}>
+                    Careers
+                </Link>
             </LinksContainer>
             <Box width="70vw" margin="1rem 0">
                 Rentalcars.com is a trading name of Booking.com Transport

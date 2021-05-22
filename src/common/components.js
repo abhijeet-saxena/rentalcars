@@ -34,7 +34,7 @@ export const Box = styled.div`
 
 export const Link = styled.a`
     text-decoration: ${(props) => (props.underline ? 'underline' : 'none')};
-    color: ${(props) => props.color || colors.textLight};
+    color: ${(props) => props.color || colors.primaryBlue};
     padding: ${(props) => props.padding || '0'};
     font-size: inherit;
     &:hover {
@@ -76,11 +76,6 @@ export const Panel = styled(Flex)`
         > a {
             min-width: 25%;
             margin: 8px 0;
-            color: ${colors.primaryBlue};
-            text-decoration: none;
-            &:hover {
-                text-decoration: underline;
-            }
             @media (max-width: 768px) {
                 min-width: 50%;
             }

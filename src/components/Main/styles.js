@@ -9,6 +9,79 @@ export const MainContainer = styled(Flex)`
     }
 `;
 
+export const ShowcaseContainer = styled(Flex)`
+    margin: 2rem 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    > h2 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    > img {
+        box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+        width: 80px;
+    }
+    @media (max-width: 1000px) {
+        width: 95vw;
+        margin: 2rem auto;
+    }
+`;
+
+export const FeaturesContainer = styled(Flex)`
+    margin: 3rem 0rem;
+    justify-content: space-between;
+    gap: 0rem;
+    > div {
+        padding: 0.5rem;
+        flex: 1 1 100%;
+    }
+    & img {
+        margin-right: 1rem;
+        width: 64px;
+        height: 64px;
+    }
+    & h3 {
+        margin-bottom: 0.5rem;
+    }
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        width: 95vw;
+        margin: 2rem auto;
+    }
+`;
+
+export const PromoSectionContainer = styled(Flex)`
+    gap: 1rem;
+    margin: 2rem 0.5rem;
+    > div {
+        padding: 0.5rem;
+        flex: 0 0 50%;
+        border-radius: 8px;
+        border: solid 1px ${colors.border};
+        @media (max-width: 1000px) {
+            flex-wrap: wrap;
+        }
+        & input {
+            flex: 1 1 auto;
+            padding-left: 1rem;
+            height: 48px;
+        }
+        & button {
+            padding: 0.75rem;
+            background: ${colors.secondaryGreen};
+            color: ${colors.textLight};
+            border: none;
+            outline: none;
+            border-radius: 4px;
+        }
+    }
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        width: 95vw;
+        margin: 2rem auto;
+    }
+`;
+
 export const TopSectionContainer = styled(Flex)`
     > div {
         flex: 0 0 50%;
@@ -25,11 +98,6 @@ export const TopSectionContainer = styled(Flex)`
         > a {
             min-width: 50%;
             margin: 8px 0;
-            color: ${colors.primaryBlue};
-            text-decoration: none;
-            &:hover {
-                text-decoration: underline;
-            }
             @media (max-width: 768px) {
                 min-width: 50%;
             }
