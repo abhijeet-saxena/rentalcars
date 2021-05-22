@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link } from '../../../common/components';
 import { TopSectionContainer } from '../styles';
 
 const TopSection = () => {
@@ -7,29 +8,29 @@ const TopSection = () => {
         <TopSectionContainer>
             <div>
                 <h2>Top Worldwide Destinations</h2>
-                <a href="#">London</a>
-                <a href="#">Edinburgh</a>
-                <a href="#">San Francisco</a>
-                <a href="#">Zurich</a>
-                <a href="#">Milan</a>
-                <a href="#">Munich</a>
-                <a href="#">Split</a>
-                <a href="#">Bangkok</a>
-                <a href="#">Barcelona</a>
-                <a href="#">Florence</a>
+                <Link href="#">London</Link>
+                <Link href="#">Edinburgh</Link>
+                <Link href="#">San Francisco</Link>
+                <Link href="#">Zurich</Link>
+                <Link href="#">Milan</Link>
+                <Link href="#">Munich</Link>
+                <Link href="#">Split</Link>
+                <Link href="#">Bangkok</Link>
+                <Link href="#">Barcelona</Link>
+                <Link href="#">Florence</Link>
             </div>
             <div>
                 <h2>Top Worldwide Airports</h2>
-                <a href="#">Heathrow Airport</a>
-                <a href="#">San Francisco Airport</a>
-                <a href="#">Zurich Airport</a>
-                <a href="#">Edinburgh Airport</a>
-                <a href="#">Keflavik Airport</a>
-                <a href="#">Los Angeles Airport</a>
-                <a href="#">Milan Malpensa Airport</a>
-                <a href="#">Boston Airport</a>
-                <a href="#">Amsterdam Schiphol Airport</a>
-                <a href="#">Bangkok Suvarnabhumi Airport</a>
+                <Link href="#">Heathrow Airport</Link>
+                <Link href="#">San Francisco Airport</Link>
+                <Link href="#">Zurich Airport</Link>
+                <Link href="#">Edinburgh Airport</Link>
+                <Link href="#">Keflavik Airport</Link>
+                <Link href="#">Los Angeles Airport</Link>
+                <Link href="#">Milan Malpensa Airport</Link>
+                <Link href="#">Boston Airport</Link>
+                <Link href="#">Amsterdam Schiphol Airport</Link>
+                <Link href="#">Bangkok Suvarnabhumi Airport</Link>
             </div>
         </TopSectionContainer>
     );
