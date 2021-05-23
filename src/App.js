@@ -1,4 +1,4 @@
-import { Flex } from './common/components';
+import { Flex } from './common/styles';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';

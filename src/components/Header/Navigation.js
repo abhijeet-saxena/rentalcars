@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavContainer } from './styles';
-import { Flex, Box, colors } from '../../common/components';
+import { Flex, Box, colors } from '../../common/styles';
 import logo from '../../assets/images/rc-logo.svg';
 import gb from '../../assets/images/gb.png';
 

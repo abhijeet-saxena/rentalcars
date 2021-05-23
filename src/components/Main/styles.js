@@ -1,4 +1,4 @@
-import { Flex, colors } from '../../common/components';
+import { Flex, colors } from '../../common/styles';
 import styled from 'styled-components';
 
 export const MainContainer = styled(Flex)`

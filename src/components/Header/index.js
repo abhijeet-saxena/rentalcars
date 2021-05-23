@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, colors } from '../../common/components';
+import { Flex, colors } from '../../common/styles';
 import { HeaderContainer } from './styles';
 import Navigation from './navigation';
 import Search from './search';

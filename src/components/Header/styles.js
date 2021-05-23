@@ -1,5 +1,5 @@
-import { Flex, colors } from '../../common/components';
-import styled from 'styled-components';
+import { Flex, colors } from '../../common/styles';
+import styled, { keyframes } from 'styled-components';
 
 export const HeaderContainer = styled(Flex)`
     flex-direction: column;
@@ -53,6 +53,15 @@ export const SearchContainer = styled(Flex)`
     }
 `;
 
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
 export const Autocomplete = styled(Flex)`
     position: relative;
     > input {
@@ -63,6 +72,32 @@ export const Autocomplete = styled(Flex)`
         position: absolute;
         left: 0.5rem;
         top: 35%;
+    }
+    > svg {
+        position: absolute;
+        right: 0.5rem;
+        top: 30%;
+        animation: ${rotate} 1.5s linear infinite;
+    }
+`;
+
+export const Suggestions = styled(Flex)`
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    border: solid 1px ${colors.textDark};
+    border-radius: 4px;
+    background: ${colors.textLight};
+    cursor: pointer;
+    > div {
+        min-height: 54px;
+        padding: 0.5rem;
+        border-bottom: solid 1px ${colors.border};
+        &:hover {
+            background: ${colors.primaryBlueLight};
+        }
     }
 `;
 

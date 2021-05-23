@@ -1,5 +1,5 @@
 import React from 'react';
-import { AccordionContainer, Panel } from '../../../common/components';
+import { AccordionContainer, Panel } from '../../../common/styles';
 import { togglePanel } from '../../../common/helper';
 
 const FAQ = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Link, colors } from '../../common/components';
+import { Box, Link, colors } from '../../common/styles';
 import { FooterContainer, LinksContainer, ImagesContainer } from './styles';
 import booking from '../../assets/images/footer/booking.png';
 import priceline from '../../assets/images/footer/priceline.png';

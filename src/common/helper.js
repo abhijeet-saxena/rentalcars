@@ -10,3 +10,16 @@ export const togglePanel = ({ target }) => {
         content.style.margin = '0 1rem 1rem';
     }
 };
+
+export const debounce = (f, delay = 250) => {
+    let timer;
+
+    return function (...args) {
+        let that = this;
+
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            f.apply(that, [...args]);
+        }, delay);
+    };
+};
