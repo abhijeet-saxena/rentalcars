@@ -1,12 +1,11 @@
 import React from 'react';
-import { AccordionContainer } from '../styles';
-import { Panel } from '../../../common/components';
+import { AccordionContainer, Panel } from '../../../common/components';
 import { togglePanel } from '../../../common/helper';
 
 const FAQ = () => {
     return (
         <AccordionContainer>
-            <h2>Frequently Asked Questions</h2>
+            <h3>Frequently Asked Questions</h3>
             <Panel>
                 <p onClick={togglePanel}>What do I need to hire a car?</p>
                 <div>

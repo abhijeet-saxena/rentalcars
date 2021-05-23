@@ -37,7 +37,7 @@ const Footer = () => {
                     Careers
                 </Link>
             </LinksContainer>
-            <Box width="70vw" margin="1rem 0">
+            <Box padding="1rem" width="75%" className="div">
                 Rentalcars.com is a trading name of Booking.com Transport
                 Limited which is a limited company registered in England and
                 Wales (Number: 05179829) whose registered address is at 100 New

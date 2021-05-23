@@ -8,22 +8,19 @@ export const FooterContainer = styled(Flex)`
     align-items: center;
     font-size: 14px;
     padding-bottom: 2rem;
-    @media (min-width: 768px) {
-    }
 `;
 
 export const LinksContainer = styled(Flex)`
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background: ${colors.primaryBlue};
     padding: 1rem;
-    font-size: 14px;
+    > a {
+        margin: 0.5rem;
+    }
     @media (min-width: 768px) {
         flex-direction: row;
-        justify-content: center;
-        > a {
-            margin: 0.5rem;
-        }
     }
 `;
 

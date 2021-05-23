@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 function App() {
     return (
-        <Flex flexDirection="column" width="100vw">
+        <Flex flexDirection="column" width="100vw" alignItems="center">
             <Header />
             <Main />
             <Footer />

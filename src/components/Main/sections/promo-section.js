@@ -39,7 +39,7 @@ const PromoSection = () => {
                 <img src={dollar} alt="dollar"></img>
             </ShowcaseContainer>
             <FeaturesContainer>
-                <Flex>
+                <Flex padding="1rem 0">
                     <img src={calendar} alt="calendar"></img>
                     <Box>
                         <h3>Flexible rentals</h3>
@@ -49,14 +49,14 @@ const PromoSection = () => {
                         </p>
                     </Box>
                 </Flex>
-                <Flex>
+                <Flex padding="1rem 0">
                     <img src={magnifier} alt="magnifier"></img>
                     <Box>
                         <h3>No hidden fees</h3>
                         <p>Know exactly what you’re paying</p>
                     </Box>
                 </Flex>
-                <Flex>
+                <Flex padding="1rem 0">
                     <img src={wallet} alt="wallet"></img>
                     <Box>
                         <h3>Price Match Guarantee</h3>
@@ -67,18 +67,9 @@ const PromoSection = () => {
                 </Flex>
             </FeaturesContainer>
             <PromoSectionContainer>
-                <Flex>
-                    <img
-                        src={covid}
-                        alt="covid"
-                        width="125px"
-                        height="112px"
-                    ></img>
-                    <Flex
-                        flexDirection="column"
-                        padding="0.5rem"
-                        justifyContent="space-between"
-                    >
+                <Flex padding="2rem 1rem">
+                    <img src={covid} alt="covid"></img>
+                    <Flex flexDirection="column">
                         <h3>
                             Clean cars. Flexible bookings. Socially distant
                             rental counters.
@@ -90,18 +81,9 @@ const PromoSection = () => {
                         <Link href="#">Find out more</Link>
                     </Flex>
                 </Flex>
-                <Flex>
-                    <img
-                        src={email}
-                        alt="email"
-                        width="125px"
-                        height="112px"
-                    ></img>
-                    <Flex
-                        flexDirection="column"
-                        padding="1rem"
-                        justifyContent="space-between"
-                    >
+                <Flex padding="2rem 1rem">
+                    <img src={email} alt="email"></img>
+                    <Flex flexDirection="column" justifyContent="space-between">
                         <h3>Subscribe for exclusive offers and deals!</h3>
                         <Flex
                             justifyContent="space-between"

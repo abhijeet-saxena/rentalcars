@@ -1,13 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Panel, Link } from '../../../common/components';
-import { AccordionContainer } from '../styles';
+import { Panel, AccordionContainer, Link } from '../../../common/components';
 import { togglePanel } from '../../../common/helper';
 
 const AdditionalInfo = () => {
     return (
         <AccordionContainer>
-            <h2>Additional Information</h2>
+            <h3>Additional Information</h3>
             <Panel>
                 <p onClick={togglePanel}>Related Searches</p>
                 <div>

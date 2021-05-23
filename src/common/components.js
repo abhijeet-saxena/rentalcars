@@ -36,27 +36,37 @@ export const Link = styled.a`
     text-decoration: ${(props) => (props.underline ? 'underline' : 'none')};
     color: ${(props) => props.color || colors.primaryBlue};
     padding: ${(props) => props.padding || '0'};
-    font-size: inherit;
+    font-size: 14px;
     &:hover {
         text-decoration: underline;
     }
 `;
 
+export const AccordionContainer = styled(Flex)`
+    flex-direction: column;
+    border-radius: 8px;
+    border: solid 1px ${colors.border};
+    > h3 {
+        padding: 1rem;
+        border-bottom: solid 1px ${colors.border};
+    }
+    margin: 1rem 0;
+    overflow: hidden;
+`;
+
 export const Panel = styled(Flex)`
     flex-direction: column;
-    overflow: hidden;
     border-bottom: solid 1px ${colors.border};
-    font-size: 14px;
     > p {
         cursor: pointer;
         padding: 1rem;
         position: relative;
         &:after {
-            content: '⌃';
+            content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="12" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/> </svg>');
             position: absolute;
             right: 1rem;
-            top: 30%;
             transform: rotate(180deg);
+            transition: transform 100ms ease-in-out;
         }
         &.expanded:after {
             transform: rotate(0deg);
@@ -66,6 +76,7 @@ export const Panel = styled(Flex)`
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        font-size: 14px;
         height: 0;
         > ul {
             margin: 0.5rem 1.5rem;

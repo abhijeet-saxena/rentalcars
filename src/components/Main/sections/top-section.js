@@ -7,7 +7,7 @@ const TopSection = () => {
     return (
         <TopSectionContainer>
             <div>
-                <h2>Top Worldwide Destinations</h2>
+                <h3>Top Worldwide Destinations</h3>
                 <Link href="#">London</Link>
                 <Link href="#">Edinburgh</Link>
                 <Link href="#">San Francisco</Link>
@@ -20,7 +20,7 @@ const TopSection = () => {
                 <Link href="#">Florence</Link>
             </div>
             <div>
-                <h2>Top Worldwide Airports</h2>
+                <h3>Top Worldwide Airports</h3>
                 <Link href="#">Heathrow Airport</Link>
                 <Link href="#">San Francisco Airport</Link>
                 <Link href="#">Zurich Airport</Link>
