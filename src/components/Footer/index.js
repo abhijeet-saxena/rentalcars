@@ -1,5 +1,6 @@
 import React from 'react';
-import { Flex, Link, colors } from '../../common/styles';
+import { Link } from '../../common/components';
+import { colors } from '../../common/helper';
 import {
     FooterContainer,
     LinksContainer,
@@ -29,7 +30,7 @@ const Footer = () => {
                 </li>
                 <li>
                     <Link href="#" color={colors.textLight}>
-                        Terms & Conditions
+                        Terms &amp; Conditions
                     </Link>
                 </li>
                 <li>

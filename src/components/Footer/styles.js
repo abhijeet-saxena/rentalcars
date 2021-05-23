@@ -1,5 +1,6 @@
-import { Flex, colors } from '../../common/styles';
 import styled from 'styled-components';
+import { Flex } from '../../common/components';
+import { colors } from '../../common/helper';
 
 export const FooterContainer = styled.footer`
     background: ${colors.backgroundGray};
@@ -15,6 +16,7 @@ export const LinksContainer = styled.ul`
     > li {
         margin: 0.5rem;
     }
+
     @media (min-width: 768px) {
         display: flex;
         flex-direction: row;
@@ -34,7 +36,9 @@ export const CopyrightContainer = styled(Flex)`
 
 export const ImagesContainer = styled(Flex)`
     justify-content: space-around;
-    @media (max-width: 768px) {
-        display: none;
+    display: none;
+
+    @media (min-width: 768px) {
+        display: flex;
     }
 `;

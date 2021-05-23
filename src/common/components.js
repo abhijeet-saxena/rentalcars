@@ -1,5 +1,41 @@
-import { Flex, Box, colors } from './styles';
+import { colors } from './helper';
 import styled from 'styled-components';
+
+export const Flex = styled.div`
+    display: flex;
+    flex-direction: ${(props) => props.flexDirection || 'row'};
+    padding: ${(props) => props.padding || '0'};
+    margin: ${(props) => props.margin || '0'};
+    width: ${(props) => props.width || '100%'};
+    justify-content: ${(props) => props.justifyContent || 'normal'};
+    align-items: ${(props) => props.alignItems || 'normal'};
+    background: ${(props) => props.background || 'transparent'};
+    text-align: ${(props) => props.textAlign || 'left'};
+    font-size: ${(props) => props.fontSize || '1rem'};
+    color: ${(props) => props.color || colors.textDark};
+    gap: ${(props) => props.gap || 0};
+`;
+
+export const Box = styled.div`
+    display: inline-block;
+    padding: ${(props) => props.padding || '0'};
+    margin: ${(props) => props.margin || '0'};
+    width: ${(props) => props.width || 'fit-content'};
+    font-size: inherit;
+    background: ${(props) => props.background || 'transparent'};
+    color: ${(props) => props.color || colors.textDark};
+    height: fit-content;
+`;
+
+export const Link = styled.a`
+    text-decoration: ${(props) => (props.underline ? 'underline' : 'none')};
+    color: ${(props) => props.color || colors.primaryBlue};
+    padding: ${(props) => props.padding || '0'};
+    font-size: 14px;
+    &:hover {
+        text-decoration: underline;
+    }
+`;
 
 const Badge = styled(Box)`
     background: ${(props) => props.bg};

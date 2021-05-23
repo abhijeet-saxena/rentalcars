@@ -1,12 +1,11 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Link } from '../../../common/styles';
-import { TopSectionContainer } from '../styles';
+import { TopSectionContainer } from './styles';
+import { Flex, Link } from '../../common/components';
 
 const TopSection = () => {
     return (
         <TopSectionContainer>
-            <div>
+            <Flex>
                 <h3>Top Worldwide Destinations</h3>
                 <Link href="#">London</Link>
                 <Link href="#">Edinburgh</Link>
@@ -18,8 +17,8 @@ const TopSection = () => {
                 <Link href="#">Bangkok</Link>
                 <Link href="#">Barcelona</Link>
                 <Link href="#">Florence</Link>
-            </div>
-            <div>
+            </Flex>
+            <Flex>
                 <h3>Top Worldwide Airports</h3>
                 <Link href="#">Heathrow Airport</Link>
                 <Link href="#">San Francisco Airport</Link>
@@ -31,7 +30,7 @@ const TopSection = () => {
                 <Link href="#">Boston Airport</Link>
                 <Link href="#">Amsterdam Schiphol Airport</Link>
                 <Link href="#">Bangkok Suvarnabhumi Airport</Link>
-            </div>
+            </Flex>
         </TopSectionContainer>
     );
 };

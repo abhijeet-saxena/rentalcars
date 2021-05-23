@@ -1,11 +1,11 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Flex, colors } from '../../common/styles';
+import { Flex } from '../../common/components';
+import { colors } from '../../common/helper';
 import { debounce, times } from '../../common/helper';
 import { SuggestionCard } from '../../common/components';
 import {
     SearchContainer,
     FilterContainer,
-    DateTimeContainer,
     DateTime,
     InputContainer,
     Autocomplete,
@@ -97,7 +97,7 @@ const Search = () => {
                         </svg>
                     )}
                 </Autocomplete>
-                <DateTimeContainer>
+                <Flex gap="0.75rem">
                     <DateTime>
                         <input
                             type="date"
@@ -132,7 +132,7 @@ const Search = () => {
                             </select>
                         </Time>
                     </DateTime>
-                </DateTimeContainer>
+                </Flex>
                 <button type="button">Search</button>
             </InputContainer>
         </SearchContainer>

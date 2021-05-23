@@ -1,4 +1,4 @@
-import { Flex } from './common/styles';
+import { Flex } from './common/components';
 import { Header, Main, Footer } from './components/';
 
 function App() {

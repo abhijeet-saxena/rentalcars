@@ -1,3 +1,27 @@
+import { keyframes } from 'styled-components';
+
+export const colors = {
+    primaryBlue: '#1E79CA',
+    primaryBlueLight: '#E7F4FE',
+    secondaryGreen: '#3D8425',
+    secondaryYellow: '#F7B732',
+    textDark: '#333',
+    textLight: '#FFF',
+    textBlue: '#1273C4',
+    backgroundGray: '#f5f5f5',
+    border: '#e7e7e7',
+    badgeRed: '#961412',
+    badgeBlue: '#1263b0',
+    badgeGray: '#474747',
+    badgeYellow: '#f1c74c',
+};
+
+export const rotate = keyframes`
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
 export const togglePanel = ({ target }) => {
     target.classList.toggle('expanded');
     let content = target.nextElementSibling;
