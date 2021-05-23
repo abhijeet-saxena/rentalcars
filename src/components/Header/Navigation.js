@@ -7,7 +7,7 @@ import gb from '../../assets/images/gb.png';
 const Navigation = () => {
     return (
         <NavContainer>
-            <a href="/">
+            <a href="/rentalcars">
                 <img src={logo} alt="Rentalcars.com Logo"></img>
             </a>
             <Flex
@@ -24,8 +24,8 @@ const Navigation = () => {
             <Box className="hamburger">
                 <svg viewBox="0 0 24 24" width="20">
                     <path
-                        stroke="currentColor"
-                        fill="currentColor"
+                        stroke={colors.textLight}
+                        fill={colors.textLight}
                         d="M2.25 18.753h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5zm0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5zm0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5z"
                     />
                 </svg>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const colors = {
     primaryBlue: '#1E79CA',
-    primaryBlueLight: '#e7f4fe',
+    primaryBlueLight: '#E7F4FE',
     secondaryGreen: '#3D8425',
     secondaryYellow: '#F7B732',
     textDark: '#333',
