@@ -85,10 +85,7 @@ const PromoSection = () => {
                     <img src={email} alt="email"></img>
                     <Flex flexDirection="column" justifyContent="space-between">
                         <h3>Subscribe for exclusive offers and deals!</h3>
-                        <Flex
-                            justifyContent="space-between"
-                            style={{ gap: '1rem' }}
-                        >
+                        <Flex justifyContent="space-between" gap="1rem">
                             <input type="email" placeholder="Email Address" />
                             <button>Sign Me Up !</button>
                         </Flex>

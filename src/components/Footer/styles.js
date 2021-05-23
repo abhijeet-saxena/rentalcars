@@ -26,7 +26,6 @@ export const LinksContainer = styled(Flex)`
 
 export const ImagesContainer = styled(Flex)`
     justify-content: space-between;
-    background: transparent;
     width: 70vw;
     margin: 0 auto;
     @media (max-width: 768px) {

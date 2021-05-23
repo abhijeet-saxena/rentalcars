@@ -4,9 +4,7 @@ import styled from 'styled-components';
 export const MainContainer = styled(Flex)`
     flex-direction: column;
     padding: 1rem 1rem;
-    @media (min-width: 768px) {
-        max-width: 1142px;
-    }
+    max-width: 1142px;
 `;
 
 export const ShowcaseContainer = styled(Flex)`
@@ -62,7 +60,7 @@ export const PromoSectionContainer = styled(Flex)`
         & input {
             flex: 1 1 auto;
             padding-left: 1rem;
-            height: 48px;
+            border: solid 1px ${colors.border};
         }
         & button {
             padding: 0.75rem;

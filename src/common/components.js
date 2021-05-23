@@ -19,16 +19,18 @@ export const Flex = styled.div`
     width: ${(props) => props.width || '100%'};
     justify-content: ${(props) => props.justifyContent || 'normal'};
     align-items: ${(props) => props.alignItems || 'normal'};
-    background: ${(props) => props.background || colors.textLight};
+    background: ${(props) => props.background || 'transparent'};
     text-align: ${(props) => props.textAlign || 'left'};
     font-size: ${(props) => props.fontSize || '1rem'};
     color: ${(props) => props.color || colors.textDark};
+    gap: ${(props) => props.gap || 0};
 `;
 
 export const Box = styled.div`
+    display: inline-block;
     padding: ${(props) => props.padding || '0'};
     margin: ${(props) => props.margin || '0'};
-    width: ${(props) => props.width || '100%'};
+    width: ${(props) => props.width || 'fit-content'};
     font-size: inherit;
 `;
 
@@ -44,6 +46,7 @@ export const Link = styled.a`
 
 export const AccordionContainer = styled(Flex)`
     flex-direction: column;
+    background: ${colors.textLight};
     border-radius: 8px;
     border: solid 1px ${colors.border};
     > h3 {
@@ -55,6 +58,7 @@ export const AccordionContainer = styled(Flex)`
 `;
 
 export const Panel = styled(Flex)`
+    background: ${colors.textLight};
     flex-direction: column;
     border-bottom: solid 1px ${colors.border};
     > p {
