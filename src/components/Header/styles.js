@@ -123,7 +123,7 @@ export const Suggestions = styled(Flex)`
     border-radius: 4px;
     cursor: pointer;
     > div {
-        height: 54px;
+        min-height: 54px;
         padding: 0.5rem;
         border-bottom: solid 1px ${colors.border};
         &:hover {
