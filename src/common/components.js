@@ -1,5 +1,6 @@
-import { colors } from './helper';
 import styled from 'styled-components';
+import { colors } from './helper';
+import dismiss from '../assets/images/dismiss.svg';
 
 export const Flex = styled.div`
     display: flex;
@@ -11,7 +12,7 @@ export const Flex = styled.div`
     align-items: ${(props) => props.alignItems || 'normal'};
     background: ${(props) => props.background || 'transparent'};
     text-align: ${(props) => props.textAlign || 'left'};
-    font-size: ${(props) => props.fontSize || '1rem'};
+    font-size: ${(props) => props.fontSize || 'inherit'};
     color: ${(props) => props.color || colors.textDark};
     gap: ${(props) => props.gap || 0};
 `;
@@ -98,5 +99,48 @@ export const SuggestionCard = ({ details, setValue }) => {
                 </small>
             </div>
         </Flex>
+    );
+};
+
+const DrawerContainer = styled(Flex)`
+    flex-direction: column;
+    padding: 0.5rem 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: ${colors.textLight};
+    top: -1rem;
+    left: -1rem;
+    z-index: 1;
+    > .header {
+        padding: 0.5rem 1rem;
+        > button {
+            background: none;
+            padding: 0;
+            height: auto;
+        }
+    }
+    hr {
+        border: solid 0.5px ${colors.border};
+        opacity: 0.25;
+    }
+`;
+
+export const Drawer = ({ children, closeMenu = () => {}, heading = '' }) => {
+    return (
+        <DrawerContainer>
+            <Flex
+                className="header"
+                justifyContent="space-between"
+                alignItems="center"
+            >
+                <div>{heading}</div>
+                <button type="button" onClick={closeMenu}>
+                    <img src={dismiss} alt="Close Menu" />
+                </button>
+            </Flex>
+            <hr></hr>
+            {children}
+        </DrawerContainer>
     );
 };

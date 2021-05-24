@@ -123,7 +123,7 @@ const PromoSection = () => {
                         <h3>Subscribe for exclusive offers and deals!</h3>
                         <Flex gap="1rem" style={{ flexWrap: 'wrap' }}>
                             <input type="email" placeholder="Email Address" />
-                            <button>Sign Me Up !</button>
+                            <button type="button">Sign Me Up !</button>
                         </Flex>
                     </Flex>
                 </Flex>

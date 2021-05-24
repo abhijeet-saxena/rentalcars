@@ -47,6 +47,7 @@ export const PromoContainer = styled(Flex)`
     flex-direction: column;
     gap: 1rem;
     > div {
+        flex-direction: column;
         border-radius: 8px;
         border: solid 1px ${colors.border};
         padding: 1rem;
@@ -73,6 +74,9 @@ export const PromoContainer = styled(Flex)`
 
     @media (min-width: 768px) {
         flex-direction: row;
+        > div {
+            flex-direction: row;
+        }
         & button {
             width: fit-content;
         }

@@ -17,6 +17,7 @@ export const NavContainer = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     > .menu {
         cursor: pointer;
         > img {
@@ -35,6 +36,8 @@ export const NavContainer = styled.nav`
     }
     .hamburger {
         cursor: pointer;
+        background: none;
+        padding: 0;
     }
 
     @media (min-width: 768px) {
@@ -94,6 +97,7 @@ export const Autocomplete = styled(Flex)`
     position: relative;
     & input {
         padding-left: 2rem;
+        min-width: 100px;
     }
     &:after {
         content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em"><path d="m20.75 3.709-7.377 17.79-1.638-8.187a.75.75 0 0 0-.588-.588L2.96 11.086l17.79-7.377zm-.574-1.386L2.385 9.7a1.5 1.5 0 0 0 .28 2.856l8.188 1.638-.588-.588 1.638 8.188a1.5 1.5 0 0 0 2.856.28l7.377-17.79a1.5 1.5 0 0 0-1.96-1.96z"/></svg>');
@@ -133,6 +137,7 @@ export const DateTime = styled(Flex)`
     gap: 0.75rem;
     > input {
         width: auto;
+        padding: 0.5rem;
     }
     & select {
         width: 100%;
