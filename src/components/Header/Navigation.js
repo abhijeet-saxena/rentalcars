@@ -9,7 +9,12 @@ const Navigation = () => {
     return (
         <NavContainer>
             <a href="/rentalcars">
-                <img src={logo} alt="Rentalcars.com Logo"></img>
+                <img
+                    src={logo}
+                    alt="Rentalcars.com Logo"
+                    width="156"
+                    height="21"
+                ></img>
             </a>
             <Flex
                 width="auto"

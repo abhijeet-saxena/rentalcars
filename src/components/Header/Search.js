@@ -50,7 +50,7 @@ const Search = () => {
 
     return (
         <SearchContainer>
-            <h3>Let’s find your ideal car</h3>
+            <h2>Let’s find your ideal car</h2>
             <FilterContainer>
                 <Flex alignItems="center" width="auto">
                     <input type="checkbox" id="diff-location"></input>
@@ -64,7 +64,7 @@ const Search = () => {
                         defaultChecked={true}
                         id="driver-age"
                     ></input>
-                    <label htmlFor="driver-age">Driver aged 30 – 65?</label>
+                    <label htmlFor="driver-age">Driver aged 30 – 65 ?</label>
                 </Flex>
             </FilterContainer>
             <InputContainer>
@@ -104,9 +104,14 @@ const Search = () => {
                             id="pickup-date"
                             name="pickup-date"
                             defaultValue="2021-05-28"
+                            aria-label="Select Pickup date"
                         />
                         <Time>
-                            <select name="pickup-time" defaultValue="10:30">
+                            <select
+                                name="pickup-time"
+                                defaultValue="10:30"
+                                aria-label="Select Pickup Time"
+                            >
                                 {times.map((item) => (
                                     <option value={item} key={item}>
                                         {item}
@@ -121,9 +126,14 @@ const Search = () => {
                             id="drop-date"
                             name="drop-date"
                             defaultValue="2021-06-01"
+                            aria-label="Select Drop date"
                         />
                         <Time>
-                            <select name="drop-time" defaultValue="15:30">
+                            <select
+                                name="drop-time"
+                                defaultValue="15:30"
+                                aria-label="Select Drop Time"
+                            >
                                 {times.map((item) => (
                                     <option value={item} key={item}>
                                         {item}

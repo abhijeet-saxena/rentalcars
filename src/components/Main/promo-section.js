@@ -2,41 +2,69 @@ import React from 'react';
 import { Flex, Link, Box } from '../../common/components';
 import { ShowcaseContainer, FeaturesContainer, PromoContainer } from './styles';
 
-import calendar from '../../assets/images/promo/calendar.png';
-import magnifier from '../../assets/images/promo/magnifier.png';
-import wallet from '../../assets/images/promo/wallet.png';
-import covid from '../../assets/images/promo/covid.png';
-import email from '../../assets/images/promo/email.png';
-
-import greenmotion from '../../assets/images/showcase/greenmotion.gif';
-import avis from '../../assets/images/showcase/avis.gif';
-import easirent from '../../assets/images/showcase/easirent.gif';
-import europcar from '../../assets/images/showcase/europcar.gif';
-import sixt from '../../assets/images/showcase/sixt.gif';
-import alamo from '../../assets/images/showcase/alamo.gif';
-import budget from '../../assets/images/showcase/budget.gif';
-import dollar from '../../assets/images/showcase/dollar.gif';
-
 const PromoSection = () => {
     return (
         <>
             <ShowcaseContainer>
-                <h2>
+                <h3>
                     Rentalcars.com connects you to the biggest brands in car
                     hire.
-                </h2>
-                <img src={greenmotion} alt="greenmotion-logo"></img>
-                <img src={avis} alt="avis-logo"></img>
-                <img src={easirent} alt="easirent-logo"></img>
-                <img src={europcar} alt="europcar-logo"></img>
-                <img src={sixt} alt="sixt-logo"></img>
-                <img src={alamo} alt="alamo-logo"></img>
-                <img src={budget} alt="budget-logo"></img>
-                <img src={dollar} alt="dollar-logo"></img>
+                </h3>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/greenmotion_logo_lrg.gif"
+                    alt="greenmotion"
+                    width="80"
+                    height="40"
+                ></img>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/avis_logo_lrg.gif"
+                    alt="avis"
+                    width="80"
+                    height="40"
+                ></img>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/easirent_logo_lrg.gif"
+                    alt="easirent"
+                    width="80"
+                    height="40"
+                ></img>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/europcar_logo_lrg.gif"
+                    alt="europcar"
+                    width="80"
+                    height="40"
+                ></img>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/sixt_logo_lrg.gif"
+                    alt="sixt"
+                    width="80"
+                    height="40"
+                ></img>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/alamo_logo_lrg.gif"
+                    alt="alamo"
+                    width="80"
+                    height="40"
+                ></img>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/budget_logo_lrg.gif"
+                    alt="budget"
+                    width="80"
+                    height="40"
+                ></img>
+                <img
+                    src="https://cdn2.rcstatic.com/images/supplier_logos/dollar_logo_lrg.gif"
+                    alt="dollar"
+                    width="80"
+                    height="40"
+                ></img>
             </ShowcaseContainer>
             <FeaturesContainer>
                 <Flex>
-                    <img src={calendar} alt="calendar"></img>
+                    <img
+                        src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_calendar@1x.png"
+                        alt="Flexible Rentals"
+                    ></img>
                     <Box>
                         <h3>Flexible rentals</h3>
                         <p>
@@ -46,14 +74,20 @@ const PromoSection = () => {
                     </Box>
                 </Flex>
                 <Flex>
-                    <img src={magnifier} alt="magnifier"></img>
+                    <img
+                        src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_magnifier@1x.png"
+                        alt="No Hidden Fees"
+                    ></img>
                     <Box>
                         <h3>No hidden fees</h3>
                         <p>Know exactly what you’re paying</p>
                     </Box>
                 </Flex>
                 <Flex>
-                    <img src={wallet} alt="wallet"></img>
+                    <img
+                        src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_wallet@1x.png"
+                        alt="Price Match Guarantee"
+                    ></img>
                     <Box>
                         <h3>Price Match Guarantee</h3>
                         <p>
@@ -64,7 +98,10 @@ const PromoSection = () => {
             </FeaturesContainer>
             <PromoContainer>
                 <Flex>
-                    <img src={covid} alt="covid"></img>
+                    <img
+                        src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/covid-banner/mobile/thumbnail_covid@1x.png"
+                        alt="covid-message"
+                    ></img>
                     <Flex flexDirection="column">
                         <h3>
                             Clean cars. Flexible bookings. Socially distant
@@ -78,7 +115,10 @@ const PromoSection = () => {
                     </Flex>
                 </Flex>
                 <Flex>
-                    <img src={email} alt="email"></img>
+                    <img
+                        src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/email-subscription/mobile/email_signup@1x.png"
+                        alt="email-subscription"
+                    ></img>
                     <Flex flexDirection="column" gap="1rem">
                         <h3>Subscribe for exclusive offers and deals!</h3>
                         <Flex gap="1rem" style={{ flexWrap: 'wrap' }}>

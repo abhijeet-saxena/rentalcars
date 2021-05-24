@@ -111,6 +111,7 @@ export const Autocomplete = styled(Flex)`
 
 export const Suggestions = styled(Flex)`
     position: absolute;
+    z-index: 1;
     top: 100%;
     flex-direction: column;
     background: ${colors.textLight};

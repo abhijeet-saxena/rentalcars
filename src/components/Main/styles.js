@@ -12,12 +12,11 @@ export const ShowcaseContainer = styled(Flex)`
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
-    > h2 {
+    > h3 {
         flex: 0 0 100%;
     }
     > img {
         box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
-        width: 80px;
     }
 `;
 

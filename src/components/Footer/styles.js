@@ -3,7 +3,7 @@ import { Flex } from '../../common/components';
 import { colors } from '../../common/helper';
 
 export const FooterContainer = styled.footer`
-    background: ${colors.backgroundGray};
+    background: ${colors.textLight};
     font-size: 14px;
     padding-bottom: 2rem;
     text-align: center;
