@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rentalcars/static/css/main.7e1f09d3.chunk.css",
-    "main.js": "/rentalcars/static/js/main.af4e6df3.chunk.js",
-    "main.js.map": "/rentalcars/static/js/main.af4e6df3.chunk.js.map",
+    "main.js": "/rentalcars/static/js/main.efbd5b65.chunk.js",
+    "main.js.map": "/rentalcars/static/js/main.efbd5b65.chunk.js.map",
     "runtime-main.js": "/rentalcars/static/js/runtime-main.d24e6820.js",
     "runtime-main.js.map": "/rentalcars/static/js/runtime-main.d24e6820.js.map",
-    "static/js/2.d1461d40.chunk.js": "/rentalcars/static/js/2.d1461d40.chunk.js",
-    "static/js/2.d1461d40.chunk.js.map": "/rentalcars/static/js/2.d1461d40.chunk.js.map",
+    "static/js/2.4c1ce099.chunk.js": "/rentalcars/static/js/2.4c1ce099.chunk.js",
+    "static/js/2.4c1ce099.chunk.js.map": "/rentalcars/static/js/2.4c1ce099.chunk.js.map",
     "index.html": "/rentalcars/index.html",
     "static/css/main.7e1f09d3.chunk.css.map": "/rentalcars/static/css/main.7e1f09d3.chunk.css.map",
-    "static/js/2.d1461d40.chunk.js.LICENSE.txt": "/rentalcars/static/js/2.d1461d40.chunk.js.LICENSE.txt",
+    "static/js/2.4c1ce099.chunk.js.LICENSE.txt": "/rentalcars/static/js/2.4c1ce099.chunk.js.LICENSE.txt",
     "static/media/calendar.284a99d9.svg": "/rentalcars/static/media/calendar.284a99d9.svg",
     "static/media/dismiss.3b0d245e.svg": "/rentalcars/static/media/dismiss.3b0d245e.svg",
     "static/media/hamburger.5cb4075c.svg": "/rentalcars/static/media/hamburger.5cb4075c.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d24e6820.js",
-    "static/js/2.d1461d40.chunk.js",
+    "static/js/2.4c1ce099.chunk.js",
     "static/css/main.7e1f09d3.chunk.css",
-    "static/js/main.af4e6df3.chunk.js"
+    "static/js/main.efbd5b65.chunk.js"
   ]
 }
