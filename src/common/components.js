@@ -10,8 +10,7 @@ export const Flex = styled.div`
     width: ${(props) => props.width || '100%'};
     justify-content: ${(props) => props.justifyContent || 'normal'};
     align-items: ${(props) => props.alignItems || 'normal'};
-    background: ${(props) => props.background || 'transparent'};
-    text-align: ${(props) => props.textAlign || 'left'};
+    background: ${(props) => props.background || 'none'};
     font-size: ${(props) => props.fontSize || 'inherit'};
     color: ${(props) => props.color || colors.textDark};
     gap: ${(props) => props.gap || 0};
@@ -135,8 +134,12 @@ export const Drawer = ({ children, closeMenu = () => {}, heading = '' }) => {
                 alignItems="center"
             >
                 <div>{heading}</div>
-                <button type="button" onClick={closeMenu}>
-                    <img src={dismiss} alt="Close Menu" />
+                <button
+                    type="button"
+                    onClick={closeMenu}
+                    aria-label="Close Menu"
+                >
+                    <img src={dismiss} alt="" />
                 </button>
             </Flex>
             <hr></hr>

@@ -23,12 +23,13 @@ const Navigation = () => {
                         fontSize="14px"
                     >
                         <Flex alignItems="center" gap="0.5rem">
-                            <img src={inr} alt="Indian Rupee" /> Indian Rupee
+                            <img src={inr} alt="Prices in Indian Rupees" />
+                            Indian Rupee
                         </Flex>
                         <Flex alignItems="center" gap="0.5rem">
                             <img
                                 src={gb}
-                                alt="Language English"
+                                alt="Selected Language English"
                                 style={{ borderRadius: '50%' }}
                                 height="24px"
                             />
@@ -44,7 +45,7 @@ const Navigation = () => {
             <a href="/rentalcars">
                 <img
                     src={logo}
-                    alt="Rentalcars.com Logo"
+                    alt="Rentalcars.com"
                     width="156"
                     height="21"
                 ></img>
@@ -55,13 +56,23 @@ const Navigation = () => {
                 className="menu"
                 alignItems="center"
             >
-                <span style={{ color: colors.textLight }}>INR</span>
-                <img src={gb} alt="gb"></img>
+                <span
+                    style={{ color: colors.textLight }}
+                    aria-label="Prices in Indian Rupees"
+                >
+                    INR
+                </span>
+                <img src={gb} alt="Selected Language English"></img>
                 <button type="button">Manage Booking</button>
             </Flex>
 
-            <button type="button" className="hamburger" onClick={closeMenu}>
-                <img src={hamburger} alt="Open Menu" />
+            <button
+                type="button"
+                className="hamburger"
+                onClick={closeMenu}
+                aria-label="Open Menu"
+            >
+                <img src={hamburger} alt="" />
             </button>
         </NavContainer>
     );

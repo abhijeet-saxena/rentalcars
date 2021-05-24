@@ -12,49 +12,49 @@ const PromoSection = () => {
                 </h3>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/greenmotion_logo_lrg.gif"
-                    alt="greenmotion"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/avis_logo_lrg.gif"
-                    alt="avis"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/easirent_logo_lrg.gif"
-                    alt="easirent"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/europcar_logo_lrg.gif"
-                    alt="europcar"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/sixt_logo_lrg.gif"
-                    alt="sixt"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/alamo_logo_lrg.gif"
-                    alt="alamo"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/budget_logo_lrg.gif"
-                    alt="budget"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
                 <img
                     src="https://cdn2.rcstatic.com/images/supplier_logos/dollar_logo_lrg.gif"
-                    alt="dollar"
+                    alt=""
                     width="80"
                     height="40"
                 ></img>
@@ -63,7 +63,7 @@ const PromoSection = () => {
                 <Flex>
                     <img
                         src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_calendar@1x.png"
-                        alt="Flexible Rentals"
+                        alt=""
                     ></img>
                     <Box>
                         <h3>Flexible rentals</h3>
@@ -76,7 +76,7 @@ const PromoSection = () => {
                 <Flex>
                     <img
                         src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_magnifier@1x.png"
-                        alt="No Hidden Fees"
+                        alt=""
                     ></img>
                     <Box>
                         <h3>No hidden fees</h3>
@@ -86,7 +86,7 @@ const PromoSection = () => {
                 <Flex>
                     <img
                         src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_wallet@1x.png"
-                        alt="Price Match Guarantee"
+                        alt=""
                     ></img>
                     <Box>
                         <h3>Price Match Guarantee</h3>
@@ -100,7 +100,7 @@ const PromoSection = () => {
                 <Flex>
                     <img
                         src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/covid-banner/mobile/thumbnail_covid@1x.png"
-                        alt="covid-message"
+                        alt=""
                     ></img>
                     <Flex flexDirection="column">
                         <h3>
@@ -117,12 +117,16 @@ const PromoSection = () => {
                 <Flex>
                     <img
                         src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/email-subscription/mobile/email_signup@1x.png"
-                        alt="email-subscription"
+                        alt=""
                     ></img>
                     <Flex flexDirection="column" gap="1rem">
                         <h3>Subscribe for exclusive offers and deals!</h3>
                         <Flex gap="1rem" style={{ flexWrap: 'wrap' }}>
-                            <input type="email" placeholder="Email Address" />
+                            <input
+                                type="email"
+                                placeholder="Email Address"
+                                aria-label="Enter Email"
+                            />
                             <button type="button">Sign Me Up !</button>
                         </Flex>
                     </Flex>

@@ -74,9 +74,20 @@ const Search = () => {
                         placeholder="Pick-Up Location"
                         onChange={debounce(autoComplete)}
                         ref={search}
+                        aria-label="Enter Location"
                     ></input>
                     {suggestions.length > 0 && (
-                        <Suggestions id="suggestions">
+                        <Suggestions
+                            id="suggestions"
+                            role="alert"
+                            aria-live="assertive"
+                            aria-label={`Search results for ${
+                                search.current.value
+                            }. ${suggestions.reduce(
+                                (acc, item) => (acc += `${item.name}, `),
+                                '',
+                            )}`}
+                        >
                             {suggestions.map((item) => (
                                 <SuggestionCard
                                     details={item}
@@ -104,7 +115,7 @@ const Search = () => {
                             id="pickup-date"
                             name="pickup-date"
                             defaultValue="2021-05-28"
-                            aria-label="Select Pickup date"
+                            aria-label="Enter Pickup date"
                         />
                         <Time>
                             <select
@@ -126,7 +137,7 @@ const Search = () => {
                             id="drop-date"
                             name="drop-date"
                             defaultValue="2021-06-01"
-                            aria-label="Select Drop date"
+                            aria-label="Enter Drop date"
                         />
                         <Time>
                             <select

@@ -18,6 +18,7 @@ To run this project locally —
 -   To run the Dev Server, run `npm start` this will spin up a local dev server on [localhost:3000](localhost:3000) with HMR enabled
 -   For optimised production build , run `npm run build`
 -   You can serve this project from `/build` directory
+-   To run the test cases, run `npm test`
 
 ## Project Folder Structure
 
@@ -47,6 +48,11 @@ To run this project locally —
 
 <img src="./demo/desktop.gif" >
 
+# Performance Metrics
+
+1. Lighthouse - [Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fitsrockyy.me%2Frentalcars%2F)
+2. Page Speed Insights - [Mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fitsrockyy.me%2Frentalcars%2F&tab=mobile) | [Desktop](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fitsrockyy.me%2Frentalcars%2F&tab=desktop)
+
 ## Technologies Used
 
 -   [React.js](https://reactjs.org) and [Node.js](https://nodejs.org/en/)
@@ -57,7 +63,11 @@ To run this project locally —
 
 -   Deployment — [Github Pages](https://pages.github.com/)
 
--   Testing — [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+-   Testing — [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/), [Jest](https://jestjs.io/)
+
+-   Performance - [Lighthouse](https://developers.google.com/web/tools/lighthouse), [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/)
+
+-   Accessibility - [Chrome Vox Screen Reader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn)
 
 -   Search Suggestions API ([Example](https://www.rentalcars.com/FTSAutocomplete.do?solrIndex=fts_en&solrRows=6&solrTerm=search-string"))
 

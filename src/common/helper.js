@@ -1,5 +1,6 @@
 import { keyframes } from 'styled-components';
 
+// Global Colors Used
 export const colors = {
     primaryBlue: '#1E79CA',
     primaryBlueLight: '#E7F4FE',
@@ -16,12 +17,14 @@ export const colors = {
     badgeYellow: '#f1c74c',
 };
 
+// Used in loading spinner
 export const rotate = keyframes`
   to {
     transform: rotate(360deg);
   }
 `;
 
+// Used by accordion
 export const togglePanel = ({ target }) => {
     target.classList.toggle('expanded');
     let content = target.nextElementSibling;
@@ -35,7 +38,9 @@ export const togglePanel = ({ target }) => {
     }
 };
 
-export const debounce = (f, delay = 250) => {
+// Used to debounce API calls while searching
+// PERFORMANCE IMPROVEMENT
+export const debounce = (f, delayInMS = 250) => {
     let timer;
 
     return function (...args) {
@@ -44,10 +49,11 @@ export const debounce = (f, delay = 250) => {
         clearTimeout(timer);
         timer = setTimeout(() => {
             f.apply(that, [...args]);
-        }, delay);
+        }, delayInMS);
     };
 };
 
+// All possible times in selecting Pickup/Drop time
 export const times = [
     '00:00',
     '00:30',
