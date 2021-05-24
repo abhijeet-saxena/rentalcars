@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rentalcars/static/css/main.7e1f09d3.chunk.css",
-    "main.js": "/rentalcars/static/js/main.b6665961.chunk.js",
-    "main.js.map": "/rentalcars/static/js/main.b6665961.chunk.js.map",
+    "main.js": "/rentalcars/static/js/main.cb06599d.chunk.js",
+    "main.js.map": "/rentalcars/static/js/main.cb06599d.chunk.js.map",
     "runtime-main.js": "/rentalcars/static/js/runtime-main.d24e6820.js",
     "runtime-main.js.map": "/rentalcars/static/js/runtime-main.d24e6820.js.map",
     "static/js/2.b779707f.chunk.js": "/rentalcars/static/js/2.b779707f.chunk.js",
@@ -10,13 +10,12 @@
     "index.html": "/rentalcars/index.html",
     "static/css/main.7e1f09d3.chunk.css.map": "/rentalcars/static/css/main.7e1f09d3.chunk.css.map",
     "static/js/2.b779707f.chunk.js.LICENSE.txt": "/rentalcars/static/js/2.b779707f.chunk.js.LICENSE.txt",
-    "static/media/email.f6b7f634.png": "/rentalcars/static/media/email.f6b7f634.png",
     "static/media/rc-logo.091fab27.svg": "/rentalcars/static/media/rc-logo.091fab27.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d24e6820.js",
     "static/js/2.b779707f.chunk.js",
     "static/css/main.7e1f09d3.chunk.css",
-    "static/js/main.b6665961.chunk.js"
+    "static/js/main.cb06599d.chunk.js"
   ]
 }
