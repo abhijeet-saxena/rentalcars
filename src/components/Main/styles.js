@@ -43,7 +43,7 @@ export const FeaturesContainer = styled(Flex)`
     }
 `;
 
-export const PromoContainer = styled(Flex)`
+export const OffersContainer = styled(Flex)`
     flex-direction: column;
     gap: 1rem;
     > div {

@@ -11,49 +11,65 @@ import {
 const Footer = () => {
     return (
         <FooterContainer>
-            <LinksContainer>
+            <LinksContainer data-testid="site-links">
                 <li>
-                    <Link href="#" color={colors.textLight}>
+                    <Link
+                        href="https://www.rentalcars.com/PrivacyPolicy.do"
+                        color={colors.textLight}
+                    >
                         Privacy Notice
                     </Link>
                 </li>
                 <li>
-                    <Link href="#" color={colors.textLight}>
-                        Cookies
+                    <Link
+                        href="https://www.rentalcars.com/TermsAndConditions.do"
+                        color={colors.textLight}
+                    >
+                        Terms & Conditions
                     </Link>
                 </li>
                 <li>
-                    <Link href="#" color={colors.textLight}>
-                        Terms &amp; Conditions
-                    </Link>
-                </li>
-                <li>
-                    <Link href="#" color={colors.textLight}>
+                    <Link
+                        href="https://www.rentalcars.com/Help.do"
+                        color={colors.textLight}
+                    >
                         Help
                     </Link>
                 </li>
                 <li>
-                    <Link href="#" color={colors.textLight}>
+                    <Link
+                        href="https://cdn2.rcstatic.com/documentation/pdf/SignedModernSlaveryStatement.pdf"
+                        color={colors.textLight}
+                    >
                         Modern Slavery Statement
                     </Link>
                 </li>
                 <li>
-                    <Link href="#" color={colors.textLight}>
+                    <Link
+                        href="https://secure.rentalcars.com/marketplace/en"
+                        color={colors.textLight}
+                    >
                         Supply Partner Enquiry and Marketplace
                     </Link>
                 </li>
                 <li>
-                    <Link href="#" color={colors.textLight}>
+                    <Link
+                        href="https://www.rentalcarsconnect.com/"
+                        color={colors.textLight}
+                    >
                         Affiliate Programme
                     </Link>
                 </li>
                 <li>
-                    <Link href="#" color={colors.textLight}>
+                    <Link
+                        href="https://careers.booking.com/"
+                        color={colors.textLight}
+                    >
                         Careers
                     </Link>
-                </li>
+                </li>{' '}
             </LinksContainer>
-            <CopyrightContainer>
+            <CopyrightContainer data-testid="copyright">
                 <section>
                     Rentalcars.com is a trading name of Booking.com Transport
                     Limited which is a limited company registered in England and

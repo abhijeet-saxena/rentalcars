@@ -4,9 +4,9 @@ import { togglePanel } from '../../common/helper';
 
 const FAQ = () => {
     return (
-        <AccordionContainer>
+        <AccordionContainer data-testid="faq">
             <h3>Frequently Asked Questions</h3>
-            <Panel>
+            <Panel data-testid="faq-1">
                 <p onClick={togglePanel}>What do I need to hire a car?</p>
                 <div>
                     To book your car, all you need is a credit or debit card.
@@ -31,7 +31,7 @@ const FAQ = () => {
                     </ul>
                 </div>
             </Panel>
-            <Panel>
+            <Panel data-testid="faq-2">
                 <p onClick={togglePanel}>
                     How old do I have to be to rent a car?
                 </p>
@@ -41,7 +41,7 @@ const FAQ = () => {
                     might have to pay an additional fee.
                 </div>
             </Panel>
-            <Panel>
+            <Panel data-testid="faq-3">
                 <p onClick={togglePanel}>
                     Can I book a hire car for someone else?
                 </p>
@@ -50,7 +50,7 @@ const FAQ = () => {
                     their details while you're making the reservation.
                 </div>
             </Panel>
-            <Panel>
+            <Panel data-testid="faq-4">
                 <p onClick={togglePanel}>
                     How do I find the cheapest car hire deal?
                 </p>
@@ -63,7 +63,7 @@ const FAQ = () => {
                     unbeatable price, just use our search form.
                 </div>
             </Panel>
-            <Panel>
+            <Panel data-testid="faq-5">
                 <p onClick={togglePanel}>
                     What should I look for when I'm choosing a car?
                 </p>
@@ -86,7 +86,7 @@ const FAQ = () => {
                     </ul>
                 </div>
             </Panel>
-            <Panel>
+            <Panel data-testid="faq-6">
                 <p onClick={togglePanel}>
                     Are all fees included in the rental price?
                 </p>

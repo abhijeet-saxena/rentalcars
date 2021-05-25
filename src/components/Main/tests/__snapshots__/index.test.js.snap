@@ -1,0 +1,2152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> Rendered Snapshot Matches 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="sc-jSFjdj kcfAQr"
+      >
+        <div
+          class="sc-bdnxRM sc-gKAaRy hoHvTM fBYkBf"
+          data-testid="showcase-container"
+        >
+          <h3>
+            Rentalcars.com connects you to the biggest brands in car hire.
+          </h3>
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/greenmotion_logo_lrg.gif"
+            width="80"
+          />
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/avis_logo_lrg.gif"
+            width="80"
+          />
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/easirent_logo_lrg.gif"
+            width="80"
+          />
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/europcar_logo_lrg.gif"
+            width="80"
+          />
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/sixt_logo_lrg.gif"
+            width="80"
+          />
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/alamo_logo_lrg.gif"
+            width="80"
+          />
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/budget_logo_lrg.gif"
+            width="80"
+          />
+          <img
+            alt=""
+            height="40"
+            src="https://cdn2.rcstatic.com/images/supplier_logos/dollar_logo_lrg.gif"
+            width="80"
+          />
+        </div>
+        <div
+          class="sc-bdnxRM sc-iCoGMd hoHvTM fpjuMg"
+          data-testid="features-container"
+        >
+          <div
+            class="sc-bdnxRM hoHvTM"
+          >
+            <img
+              alt=""
+              src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_calendar@1x.png"
+            />
+            <div
+              class="sc-gtsrHT dWcgVK"
+            >
+              <h3>
+                Flexible rentals
+              </h3>
+              <p>
+                Cancel or change most bookings for free up to 48 hours before pick-up
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM hoHvTM"
+          >
+            <img
+              alt=""
+              src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_magnifier@1x.png"
+            />
+            <div
+              class="sc-gtsrHT dWcgVK"
+            >
+              <h3>
+                No hidden fees
+              </h3>
+              <p>
+                Know exactly what you’re paying
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM hoHvTM"
+          >
+            <img
+              alt=""
+              src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_wallet@1x.png"
+            />
+            <div
+              class="sc-gtsrHT dWcgVK"
+            >
+              <h3>
+                Price Match Guarantee
+              </h3>
+              <p>
+                Found the same deal for less? We’ll match the price.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM sc-fujyAs hoHvTM jZtIxR"
+          data-testid="offers-container"
+        >
+          <div
+            class="sc-bdnxRM hoHvTM"
+          >
+            <img
+              alt=""
+              src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/covid-banner/mobile/thumbnail_covid@1x.png"
+            />
+            <div
+              class="sc-bdnxRM kHGxLY"
+            >
+              <h3>
+                Clean cars. Flexible bookings. Socially distant rental counters.
+              </h3>
+              <div
+                class="sc-gtsrHT jJgARf"
+              >
+                We’re working with our partners to keep you safe and in the driving seat.
+              </div>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="#"
+              >
+                Find out more
+              </a>
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM hoHvTM"
+          >
+            <img
+              alt=""
+              src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/email-subscription/mobile/email_signup@1x.png"
+            />
+            <div
+              class="sc-bdnxRM eiGPj"
+            >
+              <h3>
+                Subscribe for exclusive offers and deals!
+              </h3>
+              <div
+                class="sc-bdnxRM jjvUKX"
+                style="flex-wrap: wrap;"
+              >
+                <input
+                  aria-label="Enter Email"
+                  placeholder="Email Address"
+                  type="email"
+                />
+                <button
+                  type="button"
+                >
+                  Sign Me Up !
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section
+          class="sc-pNWdM iqoRtj"
+        >
+          <div
+            class="sc-bdnxRM hoHvTM"
+            data-testid="top-destinations"
+          >
+            <h3>
+              Top Worldwide Destinations
+            </h3>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/gb/london/"
+            >
+              London
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/gb/edinburgh/"
+            >
+              Edinburgh
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/us/san-francisco/"
+            >
+              San Francisco
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/ch/zurich/"
+            >
+              Zurich
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/it/milan/"
+            >
+              Milan
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/de/munich/"
+            >
+              Munich
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/hr/split/"
+            >
+              Split
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/th/bangkok/"
+            >
+              Bangkok
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/es/barcelona/"
+            >
+              Barcelona
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/city/it/florence/"
+            >
+              Florence
+            </a>
+          </div>
+          <div
+            class="sc-bdnxRM hoHvTM"
+            data-testid="top-airports"
+          >
+            <h3>
+              Top Worldwide Airports
+            </h3>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/gb/lhr/"
+            >
+              Heathrow Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/us/sfo/"
+            >
+              San Francisco Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/ch/zrh/"
+            >
+              Zurich Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/gb/edi/"
+            >
+              Edinburgh Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/is/kef/"
+            >
+              Keflavik Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/us/lax/"
+            >
+              Los Angeles Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/it/mxp/"
+            >
+              Milan Malpensa Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/us/bos/"
+            >
+              Boston Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/nl/ams/"
+            >
+              Amsterdam Schiphol Airport
+            </a>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="https://www.rentalcars.com/en/airport/th/bkk/"
+            >
+              Bangkok Suvarnabhumi Airport
+            </a>
+          </div>
+        </section>
+        <section
+          class="sc-jrsJWt eoXehl"
+          data-testid="faq"
+        >
+          <h3>
+            Frequently Asked Questions
+          </h3>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="faq-1"
+          >
+            <p>
+              What do I need to hire a car?
+            </p>
+            <div>
+              To book your car, all you need is a credit or debit card. When you pick the car up, you'll need:
+              <ul>
+                <li>
+                  Your voucher /eVoucher, to show that you've paid for the car.
+                </li>
+                <li>
+                  The main driver's credit / debit card, with enough available funds for the car's deposit.
+                </li>
+                <li>
+                  Each driver's full, valid driving licence, which they've held for at least 12 months (often 24).
+                </li>
+                <li>
+                  Your passport and any other ID the car hire company needs to see.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="faq-2"
+          >
+            <p>
+              How old do I have to be to rent a car?
+            </p>
+            <div>
+              For most car hire companies, the age requirement is between 21 and 70 years old. If you're under 25 or over 70, you might have to pay an additional fee.
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="faq-3"
+          >
+            <p>
+              Can I book a hire car for someone else?
+            </p>
+            <div>
+              Yes, as long as they meet these requirements. Just fill in their details while you're making the reservation.
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="faq-4"
+          >
+            <p>
+              How do I find the cheapest car hire deal?
+            </p>
+            <div>
+              We work with all the major international car hire brands (and lots of smaller local companies) to bring you a huge choice of cars at the very best prices. That's how we can find you cheap car hire deals at over 60,000 locations worldwide. To compare prices and find your ideal car at an unbeatable price, just use our search form.
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="faq-5"
+          >
+            <p>
+              What should I look for when I'm choosing a car?
+            </p>
+            <div>
+              <ul>
+                <li>
+                  Space: You'll enjoy your rental far more if you choose a car with plenty of room for your passengers and luggage. .
+                </li>
+                <li>
+                  Fuel policy: Not planning on driving much? A Like for like fuel policy can save you a lot of money.
+                </li>
+                <li>
+                  Location: You can't beat an 'on-airport' pick-up for convenience, but an 'off-airport' pick-up with a shuttle bus can be much cheaper.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="faq-6"
+          >
+            <p>
+              Are all fees included in the rental price?
+            </p>
+            <div>
+              The vast majority of our rentals include Theft Protection, Collision Damage Waiver (CDW), local taxes, airport surcharges and any road fees. You'll pay for any ‘extras' when you pick your car up, along with any young driver, additional driver or one-way fees – but we'll explain any additional costs before you book your car (and taking your own child seats or GPS can be an easy way to reduce your costs). For more details on what's included, just check the Ts&Cs of any car you're looking at.
+            </div>
+          </div>
+        </section>
+        <section
+          class="sc-jrsJWt eoXehl"
+          data-testid="additional-info"
+        >
+          <h3>
+            Additional Information
+          </h3>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="related-searches"
+          >
+            <p>
+              Related Searches
+            </p>
+            <ul>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/type/luxury/"
+                >
+                  Luxury Car Hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/type/convertible/"
+                >
+                  Convertible Car Hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/type/people-carrier/"
+                >
+                  7 & 9 Seater Car Hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/one-way/"
+                >
+                  One-Way Car Hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/continent/europe/"
+                >
+                  Car Hire Europe
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport-rentals/"
+                >
+                  Airport Car Hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/magazine/"
+                >
+                  Magazine
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/guides/"
+                >
+                  RentalGuides
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/companies/"
+                >
+                  Car Hire Companies
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/locations/"
+                >
+                  All Countries
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/locations/countries/"
+                >
+                  Popular Countries
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/locations/cities/"
+                >
+                  Popular Cities
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/locations/airports/"
+                >
+                  Popular Airports
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="popular-destinations"
+          >
+            <p>
+              Popular Destinations
+            </p>
+            <ul>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/us/los-angeles/"
+                >
+                  Los Angeles car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/at/vienna/"
+                >
+                  Vienna car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/is/keflavik/"
+                >
+                  Keflavik car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/nl/amsterdam/"
+                >
+                  Amsterdam car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/us/chicago/"
+                >
+                  Chicago car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/fr/paris/"
+                >
+                  Paris car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/hr/zagreb/"
+                >
+                  Zagreb car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/us/boston/"
+                >
+                  Boston car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/ie/dublin/"
+                >
+                  Dublin car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/us/seattle/"
+                >
+                  Seattle car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/es/madrid/"
+                >
+                  Madrid car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/it/rome/"
+                >
+                  Rome car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/ae/dubai/"
+                >
+                  Dubai car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/hr/dubrovnik/"
+                >
+                  Dubrovnik car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/cz/prague/"
+                >
+                  Prague car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/es/sevilla/"
+                >
+                  Sevilla car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/de/frankfurt/"
+                >
+                  Frankfurt car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/fr/nice/"
+                >
+                  Nice car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/nz/auckland/"
+                >
+                  Auckland car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/city/gb/manchester/"
+                >
+                  Manchester car hire
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="airports"
+          >
+            <p>
+              Airports
+            </p>
+            <ul>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/us/sea/"
+                >
+                  Seattle Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/de/muc/"
+                >
+                  Munich Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/us/ord/"
+                >
+                  Chicago O'Hare Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/es/bcn/"
+                >
+                  Barcelona Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/nz/akl/"
+                >
+                  Auckland Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/ie/dub/"
+                >
+                  Dublin Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/de/fra/"
+                >
+                  Frankfurt Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/fr/nce/"
+                >
+                  Nice Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/at/vie/"
+                >
+                  Vienna Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/hr/dbv/"
+                >
+                  Dubrovnik Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/cz/prg/"
+                >
+                  Prague Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/hr/zag/"
+                >
+                  Zagreb Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/it/fco/"
+                >
+                  Rome Fiumicino Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/es/mad/"
+                >
+                  Madrid Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/gb/man/"
+                >
+                  Manchester Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/pt/fao/"
+                >
+                  Faro Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/it/flr/"
+                >
+                  Florence International Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/us/sna/"
+                >
+                  Orange County Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/us/anc/"
+                >
+                  Anchorage Airport car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/airport/fr/cdg/"
+                >
+                  Paris Charles De Gaulle Airport car hire
+                </a>
+              </li>
+            </ul>
+             
+          </div>
+          <div
+            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            data-testid="car-hire-companies"
+          >
+            <p>
+              Car Hire Companies
+            </p>
+            <ul>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/budget/"
+                >
+                  Budget car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/avis/"
+                >
+                  Avis car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/dollar/"
+                >
+                  Dollar car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/hertz/"
+                >
+                  Hertz car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/sixt/"
+                >
+                  Sixt car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/thrifty/"
+                >
+                  Thrifty car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/europcar/"
+                >
+                  Europcar car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/alamo/"
+                >
+                  Alamo car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/drive-on-holidays/"
+                >
+                  tr.brands.driveOnHolidays car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/car-net/"
+                >
+                  Car Net car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/europcar-locanord/"
+                >
+                  tr.brands.europcarLocanord car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/goldcar/"
+                >
+                  Goldcar car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/keddy-by-europcar/"
+                >
+                  Keddy By Europcar car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/locauto/"
+                >
+                  Locauto car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/mega-rent/"
+                >
+                  Mega Rent car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/megadrive/"
+                >
+                  Megadrive car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/noleggiare/"
+                >
+                  Noleggiare car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/record-go/"
+                >
+                  tr.brands.recordGo car hire
+                </a>
+              </li>
+              <li>
+                <a
+                  class="sc-dlnjwi ejjUYJ"
+                  href="https://www.rentalcars.com/en/brand/thrifty-dubai/"
+                >
+                  tr.brands.thriftyDubai car hire
+                </a>
+              </li>
+            </ul>
+             
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="sc-jSFjdj kcfAQr"
+    >
+      <div
+        class="sc-bdnxRM sc-gKAaRy hoHvTM fBYkBf"
+        data-testid="showcase-container"
+      >
+        <h3>
+          Rentalcars.com connects you to the biggest brands in car hire.
+        </h3>
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/greenmotion_logo_lrg.gif"
+          width="80"
+        />
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/avis_logo_lrg.gif"
+          width="80"
+        />
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/easirent_logo_lrg.gif"
+          width="80"
+        />
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/europcar_logo_lrg.gif"
+          width="80"
+        />
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/sixt_logo_lrg.gif"
+          width="80"
+        />
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/alamo_logo_lrg.gif"
+          width="80"
+        />
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/budget_logo_lrg.gif"
+          width="80"
+        />
+        <img
+          alt=""
+          height="40"
+          src="https://cdn2.rcstatic.com/images/supplier_logos/dollar_logo_lrg.gif"
+          width="80"
+        />
+      </div>
+      <div
+        class="sc-bdnxRM sc-iCoGMd hoHvTM fpjuMg"
+        data-testid="features-container"
+      >
+        <div
+          class="sc-bdnxRM hoHvTM"
+        >
+          <img
+            alt=""
+            src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_calendar@1x.png"
+          />
+          <div
+            class="sc-gtsrHT dWcgVK"
+          >
+            <h3>
+              Flexible rentals
+            </h3>
+            <p>
+              Cancel or change most bookings for free up to 48 hours before pick-up
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM hoHvTM"
+        >
+          <img
+            alt=""
+            src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_magnifier@1x.png"
+          />
+          <div
+            class="sc-gtsrHT dWcgVK"
+          >
+            <h3>
+              No hidden fees
+            </h3>
+            <p>
+              Know exactly what you’re paying
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM hoHvTM"
+        >
+          <img
+            alt=""
+            src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_wallet@1x.png"
+          />
+          <div
+            class="sc-gtsrHT dWcgVK"
+          >
+            <h3>
+              Price Match Guarantee
+            </h3>
+            <p>
+              Found the same deal for less? We’ll match the price.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-bdnxRM sc-fujyAs hoHvTM jZtIxR"
+        data-testid="offers-container"
+      >
+        <div
+          class="sc-bdnxRM hoHvTM"
+        >
+          <img
+            alt=""
+            src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/covid-banner/mobile/thumbnail_covid@1x.png"
+          />
+          <div
+            class="sc-bdnxRM kHGxLY"
+          >
+            <h3>
+              Clean cars. Flexible bookings. Socially distant rental counters.
+            </h3>
+            <div
+              class="sc-gtsrHT jJgARf"
+            >
+              We’re working with our partners to keep you safe and in the driving seat.
+            </div>
+            <a
+              class="sc-dlnjwi ejjUYJ"
+              href="#"
+            >
+              Find out more
+            </a>
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM hoHvTM"
+        >
+          <img
+            alt=""
+            src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/email-subscription/mobile/email_signup@1x.png"
+          />
+          <div
+            class="sc-bdnxRM eiGPj"
+          >
+            <h3>
+              Subscribe for exclusive offers and deals!
+            </h3>
+            <div
+              class="sc-bdnxRM jjvUKX"
+              style="flex-wrap: wrap;"
+            >
+              <input
+                aria-label="Enter Email"
+                placeholder="Email Address"
+                type="email"
+              />
+              <button
+                type="button"
+              >
+                Sign Me Up !
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section
+        class="sc-pNWdM iqoRtj"
+      >
+        <div
+          class="sc-bdnxRM hoHvTM"
+          data-testid="top-destinations"
+        >
+          <h3>
+            Top Worldwide Destinations
+          </h3>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/gb/london/"
+          >
+            London
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/gb/edinburgh/"
+          >
+            Edinburgh
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/us/san-francisco/"
+          >
+            San Francisco
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/ch/zurich/"
+          >
+            Zurich
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/it/milan/"
+          >
+            Milan
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/de/munich/"
+          >
+            Munich
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/hr/split/"
+          >
+            Split
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/th/bangkok/"
+          >
+            Bangkok
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/es/barcelona/"
+          >
+            Barcelona
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/city/it/florence/"
+          >
+            Florence
+          </a>
+        </div>
+        <div
+          class="sc-bdnxRM hoHvTM"
+          data-testid="top-airports"
+        >
+          <h3>
+            Top Worldwide Airports
+          </h3>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/gb/lhr/"
+          >
+            Heathrow Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/us/sfo/"
+          >
+            San Francisco Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/ch/zrh/"
+          >
+            Zurich Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/gb/edi/"
+          >
+            Edinburgh Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/is/kef/"
+          >
+            Keflavik Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/us/lax/"
+          >
+            Los Angeles Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/it/mxp/"
+          >
+            Milan Malpensa Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/us/bos/"
+          >
+            Boston Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/nl/ams/"
+          >
+            Amsterdam Schiphol Airport
+          </a>
+          <a
+            class="sc-dlnjwi ejjUYJ"
+            href="https://www.rentalcars.com/en/airport/th/bkk/"
+          >
+            Bangkok Suvarnabhumi Airport
+          </a>
+        </div>
+      </section>
+      <section
+        class="sc-jrsJWt eoXehl"
+        data-testid="faq"
+      >
+        <h3>
+          Frequently Asked Questions
+        </h3>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="faq-1"
+        >
+          <p>
+            What do I need to hire a car?
+          </p>
+          <div>
+            To book your car, all you need is a credit or debit card. When you pick the car up, you'll need:
+            <ul>
+              <li>
+                Your voucher /eVoucher, to show that you've paid for the car.
+              </li>
+              <li>
+                The main driver's credit / debit card, with enough available funds for the car's deposit.
+              </li>
+              <li>
+                Each driver's full, valid driving licence, which they've held for at least 12 months (often 24).
+              </li>
+              <li>
+                Your passport and any other ID the car hire company needs to see.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="faq-2"
+        >
+          <p>
+            How old do I have to be to rent a car?
+          </p>
+          <div>
+            For most car hire companies, the age requirement is between 21 and 70 years old. If you're under 25 or over 70, you might have to pay an additional fee.
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="faq-3"
+        >
+          <p>
+            Can I book a hire car for someone else?
+          </p>
+          <div>
+            Yes, as long as they meet these requirements. Just fill in their details while you're making the reservation.
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="faq-4"
+        >
+          <p>
+            How do I find the cheapest car hire deal?
+          </p>
+          <div>
+            We work with all the major international car hire brands (and lots of smaller local companies) to bring you a huge choice of cars at the very best prices. That's how we can find you cheap car hire deals at over 60,000 locations worldwide. To compare prices and find your ideal car at an unbeatable price, just use our search form.
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="faq-5"
+        >
+          <p>
+            What should I look for when I'm choosing a car?
+          </p>
+          <div>
+            <ul>
+              <li>
+                Space: You'll enjoy your rental far more if you choose a car with plenty of room for your passengers and luggage. .
+              </li>
+              <li>
+                Fuel policy: Not planning on driving much? A Like for like fuel policy can save you a lot of money.
+              </li>
+              <li>
+                Location: You can't beat an 'on-airport' pick-up for convenience, but an 'off-airport' pick-up with a shuttle bus can be much cheaper.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="faq-6"
+        >
+          <p>
+            Are all fees included in the rental price?
+          </p>
+          <div>
+            The vast majority of our rentals include Theft Protection, Collision Damage Waiver (CDW), local taxes, airport surcharges and any road fees. You'll pay for any ‘extras' when you pick your car up, along with any young driver, additional driver or one-way fees – but we'll explain any additional costs before you book your car (and taking your own child seats or GPS can be an easy way to reduce your costs). For more details on what's included, just check the Ts&Cs of any car you're looking at.
+          </div>
+        </div>
+      </section>
+      <section
+        class="sc-jrsJWt eoXehl"
+        data-testid="additional-info"
+      >
+        <h3>
+          Additional Information
+        </h3>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="related-searches"
+        >
+          <p>
+            Related Searches
+          </p>
+          <ul>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/type/luxury/"
+              >
+                Luxury Car Hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/type/convertible/"
+              >
+                Convertible Car Hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/type/people-carrier/"
+              >
+                7 & 9 Seater Car Hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/one-way/"
+              >
+                One-Way Car Hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/continent/europe/"
+              >
+                Car Hire Europe
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport-rentals/"
+              >
+                Airport Car Hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/magazine/"
+              >
+                Magazine
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/guides/"
+              >
+                RentalGuides
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/companies/"
+              >
+                Car Hire Companies
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/locations/"
+              >
+                All Countries
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/locations/countries/"
+              >
+                Popular Countries
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/locations/cities/"
+              >
+                Popular Cities
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/locations/airports/"
+              >
+                Popular Airports
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="popular-destinations"
+        >
+          <p>
+            Popular Destinations
+          </p>
+          <ul>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/us/los-angeles/"
+              >
+                Los Angeles car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/at/vienna/"
+              >
+                Vienna car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/is/keflavik/"
+              >
+                Keflavik car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/nl/amsterdam/"
+              >
+                Amsterdam car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/us/chicago/"
+              >
+                Chicago car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/fr/paris/"
+              >
+                Paris car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/hr/zagreb/"
+              >
+                Zagreb car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/us/boston/"
+              >
+                Boston car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/ie/dublin/"
+              >
+                Dublin car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/us/seattle/"
+              >
+                Seattle car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/es/madrid/"
+              >
+                Madrid car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/it/rome/"
+              >
+                Rome car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/ae/dubai/"
+              >
+                Dubai car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/hr/dubrovnik/"
+              >
+                Dubrovnik car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/cz/prague/"
+              >
+                Prague car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/es/sevilla/"
+              >
+                Sevilla car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/de/frankfurt/"
+              >
+                Frankfurt car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/fr/nice/"
+              >
+                Nice car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/nz/auckland/"
+              >
+                Auckland car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/city/gb/manchester/"
+              >
+                Manchester car hire
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="airports"
+        >
+          <p>
+            Airports
+          </p>
+          <ul>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/us/sea/"
+              >
+                Seattle Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/de/muc/"
+              >
+                Munich Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/us/ord/"
+              >
+                Chicago O'Hare Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/es/bcn/"
+              >
+                Barcelona Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/nz/akl/"
+              >
+                Auckland Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/ie/dub/"
+              >
+                Dublin Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/de/fra/"
+              >
+                Frankfurt Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/fr/nce/"
+              >
+                Nice Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/at/vie/"
+              >
+                Vienna Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/hr/dbv/"
+              >
+                Dubrovnik Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/cz/prg/"
+              >
+                Prague Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/hr/zag/"
+              >
+                Zagreb Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/it/fco/"
+              >
+                Rome Fiumicino Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/es/mad/"
+              >
+                Madrid Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/gb/man/"
+              >
+                Manchester Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/pt/fao/"
+              >
+                Faro Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/it/flr/"
+              >
+                Florence International Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/us/sna/"
+              >
+                Orange County Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/us/anc/"
+              >
+                Anchorage Airport car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/airport/fr/cdg/"
+              >
+                Paris Charles De Gaulle Airport car hire
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div
+          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          data-testid="car-hire-companies"
+        >
+          <p>
+            Car Hire Companies
+          </p>
+          <ul>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/budget/"
+              >
+                Budget car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/avis/"
+              >
+                Avis car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/dollar/"
+              >
+                Dollar car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/hertz/"
+              >
+                Hertz car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/sixt/"
+              >
+                Sixt car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/thrifty/"
+              >
+                Thrifty car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/europcar/"
+              >
+                Europcar car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/alamo/"
+              >
+                Alamo car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/drive-on-holidays/"
+              >
+                tr.brands.driveOnHolidays car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/car-net/"
+              >
+                Car Net car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/europcar-locanord/"
+              >
+                tr.brands.europcarLocanord car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/goldcar/"
+              >
+                Goldcar car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/keddy-by-europcar/"
+              >
+                Keddy By Europcar car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/locauto/"
+              >
+                Locauto car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/mega-rent/"
+              >
+                Mega Rent car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/megadrive/"
+              >
+                Megadrive car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/noleggiare/"
+              >
+                Noleggiare car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/record-go/"
+              >
+                tr.brands.recordGo car hire
+              </a>
+            </li>
+            <li>
+              <a
+                class="sc-dlnjwi ejjUYJ"
+                href="https://www.rentalcars.com/en/brand/thrifty-dubai/"
+              >
+                tr.brands.thriftyDubai car hire
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+      </section>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

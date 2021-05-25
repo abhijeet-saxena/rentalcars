@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Rendered Snapshot Matches 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer
+        class="sc-jSFjdj cjOEBa"
+      >
+        <ul
+          class="sc-gKAaRy jyCKcZ"
+          data-testid="site-links"
+        >
+          <li>
+            <a
+              class="sc-dlnjwi jCSEIT"
+              color="#FFF"
+              href="https://www.rentalcars.com/PrivacyPolicy.do"
+            >
+              Privacy Notice
+            </a>
+          </li>
+          <li>
+            <a
+              class="sc-dlnjwi jCSEIT"
+              color="#FFF"
+              href="https://www.rentalcars.com/TermsAndConditions.do"
+            >
+              Terms & Conditions
+            </a>
+          </li>
+          <li>
+            <a
+              class="sc-dlnjwi jCSEIT"
+              color="#FFF"
+              href="https://www.rentalcars.com/Help.do"
+            >
+              Help
+            </a>
+          </li>
+          <li>
+            <a
+              class="sc-dlnjwi jCSEIT"
+              color="#FFF"
+              href="https://cdn2.rcstatic.com/documentation/pdf/SignedModernSlaveryStatement.pdf"
+            >
+              Modern Slavery Statement
+            </a>
+          </li>
+          <li>
+            <a
+              class="sc-dlnjwi jCSEIT"
+              color="#FFF"
+              href="https://secure.rentalcars.com/marketplace/en"
+            >
+              Supply Partner Enquiry and Marketplace
+            </a>
+          </li>
+          <li>
+            <a
+              class="sc-dlnjwi jCSEIT"
+              color="#FFF"
+              href="https://www.rentalcarsconnect.com/"
+            >
+              Affiliate Programme
+            </a>
+          </li>
+          <li>
+            <a
+              class="sc-dlnjwi jCSEIT"
+              color="#FFF"
+              href="https://careers.booking.com/"
+            >
+              Careers
+            </a>
+          </li>
+           
+        </ul>
+        <div
+          class="sc-bdnxRM sc-iCoGMd hoHvTM ihMhKh"
+          data-testid="copyright"
+        >
+          <section>
+            Rentalcars.com is a trading name of Booking.com Transport Limited which is a limited company registered in England and Wales (Number: 05179829) whose registered address is at 100 New Bridge Street, London, EC4V 6JA. VAT number: GB 855349007.
+          </section>
+          <section>
+            Rentalcars.com is part of Booking Holdings Inc., the world leader in online travel & related services.
+          </section>
+          <section>
+            Booking.com Transport Limited (FCA Firm Reference No 777648) is an Appointed Representative of Cover Genius Limited, which is authorised and registered by the Financial Conduct Authority, Firm Reference No 750711. Traveljigsaw Insurance Limited is incorporated in Malta and is authorised by the Malta Financial Services Authority to carry on the business of insurance in terms of the Insurance Business Act 1998. Company Registration Number: C82173 Registered Office, Development House, St Anne Street, Floriana, FRN 9010, Malta.
+          </section>
+          <div
+            class="sc-bdnxRM sc-fujyAs hoHvTM dksZDF"
+          >
+            <img
+              alt=""
+              height="26px"
+              src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
+              width="91px"
+            />
+            <img
+              alt=""
+              height="26px"
+              src="https://q-cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png"
+              width="91px"
+            />
+            <img
+              alt=""
+              height="26px"
+              src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png"
+              width="79px"
+            />
+            <img
+              alt=""
+              height="26px"
+              src="https://q-cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png"
+              width="70px"
+            />
+            <img
+              alt=""
+              height="26px"
+              src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_rentalcars/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png"
+              width="109px"
+            />
+            <img
+              alt=""
+              height="26px"
+              src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png"
+              width="95px"
+            />
+          </div>
+          <section>
+            Copyright © 2020 Booking.com Transport Limited trading as Rentalcars.com. All rights reserved
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer
+      class="sc-jSFjdj cjOEBa"
+    >
+      <ul
+        class="sc-gKAaRy jyCKcZ"
+        data-testid="site-links"
+      >
+        <li>
+          <a
+            class="sc-dlnjwi jCSEIT"
+            color="#FFF"
+            href="https://www.rentalcars.com/PrivacyPolicy.do"
+          >
+            Privacy Notice
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-dlnjwi jCSEIT"
+            color="#FFF"
+            href="https://www.rentalcars.com/TermsAndConditions.do"
+          >
+            Terms & Conditions
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-dlnjwi jCSEIT"
+            color="#FFF"
+            href="https://www.rentalcars.com/Help.do"
+          >
+            Help
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-dlnjwi jCSEIT"
+            color="#FFF"
+            href="https://cdn2.rcstatic.com/documentation/pdf/SignedModernSlaveryStatement.pdf"
+          >
+            Modern Slavery Statement
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-dlnjwi jCSEIT"
+            color="#FFF"
+            href="https://secure.rentalcars.com/marketplace/en"
+          >
+            Supply Partner Enquiry and Marketplace
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-dlnjwi jCSEIT"
+            color="#FFF"
+            href="https://www.rentalcarsconnect.com/"
+          >
+            Affiliate Programme
+          </a>
+        </li>
+        <li>
+          <a
+            class="sc-dlnjwi jCSEIT"
+            color="#FFF"
+            href="https://careers.booking.com/"
+          >
+            Careers
+          </a>
+        </li>
+         
+      </ul>
+      <div
+        class="sc-bdnxRM sc-iCoGMd hoHvTM ihMhKh"
+        data-testid="copyright"
+      >
+        <section>
+          Rentalcars.com is a trading name of Booking.com Transport Limited which is a limited company registered in England and Wales (Number: 05179829) whose registered address is at 100 New Bridge Street, London, EC4V 6JA. VAT number: GB 855349007.
+        </section>
+        <section>
+          Rentalcars.com is part of Booking Holdings Inc., the world leader in online travel & related services.
+        </section>
+        <section>
+          Booking.com Transport Limited (FCA Firm Reference No 777648) is an Appointed Representative of Cover Genius Limited, which is authorised and registered by the Financial Conduct Authority, Firm Reference No 750711. Traveljigsaw Insurance Limited is incorporated in Malta and is authorised by the Malta Financial Services Authority to carry on the business of insurance in terms of the Insurance Business Act 1998. Company Registration Number: C82173 Registered Office, Development House, St Anne Street, Floriana, FRN 9010, Malta.
+        </section>
+        <div
+          class="sc-bdnxRM sc-fujyAs hoHvTM dksZDF"
+        >
+          <img
+            alt=""
+            height="26px"
+            src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png"
+            width="91px"
+          />
+          <img
+            alt=""
+            height="26px"
+            src="https://q-cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png"
+            width="91px"
+          />
+          <img
+            alt=""
+            height="26px"
+            src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png"
+            width="79px"
+          />
+          <img
+            alt=""
+            height="26px"
+            src="https://q-cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png"
+            width="70px"
+          />
+          <img
+            alt=""
+            height="26px"
+            src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_rentalcars/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png"
+            width="109px"
+          />
+          <img
+            alt=""
+            height="26px"
+            src="https://r-cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png"
+            width="95px"
+          />
+        </div>
+        <section>
+          Copyright © 2020 Booking.com Transport Limited trading as Rentalcars.com. All rights reserved
+        </section>
+      </div>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

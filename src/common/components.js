@@ -37,7 +37,7 @@ export const Link = styled.a`
     }
 `;
 
-const Badge = styled(Box)`
+export const Badge = styled(Box)`
     background: ${(props) => props.bg};
     color: ${(props) =>
         props.bg !== colors.badgeYellow ? colors.textLight : colors.textDark};

@@ -1,11 +1,15 @@
 import React from 'react';
 import { Flex, Link, Box } from '../../common/components';
-import { ShowcaseContainer, FeaturesContainer, PromoContainer } from './styles';
+import {
+    ShowcaseContainer,
+    FeaturesContainer,
+    OffersContainer,
+} from './styles';
 
 const PromoSection = () => {
     return (
         <>
-            <ShowcaseContainer>
+            <ShowcaseContainer data-testid="showcase-container">
                 <h3>
                     Rentalcars.com connects you to the biggest brands in car
                     hire.
@@ -59,7 +63,7 @@ const PromoSection = () => {
                     height="40"
                 ></img>
             </ShowcaseContainer>
-            <FeaturesContainer>
+            <FeaturesContainer data-testid="features-container">
                 <Flex>
                     <img
                         src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/usps/mobile/usp_calendar@1x.png"
@@ -96,7 +100,7 @@ const PromoSection = () => {
                     </Box>
                 </Flex>
             </FeaturesContainer>
-            <PromoContainer>
+            <OffersContainer data-testid="offers-container">
                 <Flex>
                     <img
                         src="https://cdn2.rcstatic.com/com.rentalcars.185492029745.eu-west-1.web.prod.static-live/images/landing-pages/covid-banner/mobile/thumbnail_covid@1x.png"
@@ -131,7 +135,7 @@ const PromoSection = () => {
                         </Flex>
                     </Flex>
                 </Flex>
-            </PromoContainer>
+            </OffersContainer>
         </>
     );
 };

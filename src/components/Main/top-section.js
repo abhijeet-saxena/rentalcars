@@ -5,31 +5,71 @@ import { Flex, Link } from '../../common/components';
 const TopSection = () => {
     return (
         <TopSectionContainer>
-            <Flex>
+            <Flex data-testid="top-destinations">
                 <h3>Top Worldwide Destinations</h3>
-                <Link href="#">London</Link>
-                <Link href="#">Edinburgh</Link>
-                <Link href="#">San Francisco</Link>
-                <Link href="#">Zurich</Link>
-                <Link href="#">Milan</Link>
-                <Link href="#">Munich</Link>
-                <Link href="#">Split</Link>
-                <Link href="#">Bangkok</Link>
-                <Link href="#">Barcelona</Link>
-                <Link href="#">Florence</Link>
+                <Link href="https://www.rentalcars.com/en/city/gb/london/">
+                    London
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/gb/edinburgh/">
+                    Edinburgh
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/us/san-francisco/">
+                    San Francisco
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/ch/zurich/">
+                    Zurich
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/it/milan/">
+                    Milan
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/de/munich/">
+                    Munich
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/hr/split/">
+                    Split
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/th/bangkok/">
+                    Bangkok
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/es/barcelona/">
+                    Barcelona
+                </Link>
+                <Link href="https://www.rentalcars.com/en/city/it/florence/">
+                    Florence
+                </Link>
             </Flex>
-            <Flex>
+            <Flex data-testid="top-airports">
                 <h3>Top Worldwide Airports</h3>
-                <Link href="#">Heathrow Airport</Link>
-                <Link href="#">San Francisco Airport</Link>
-                <Link href="#">Zurich Airport</Link>
-                <Link href="#">Edinburgh Airport</Link>
-                <Link href="#">Keflavik Airport</Link>
-                <Link href="#">Los Angeles Airport</Link>
-                <Link href="#">Milan Malpensa Airport</Link>
-                <Link href="#">Boston Airport</Link>
-                <Link href="#">Amsterdam Schiphol Airport</Link>
-                <Link href="#">Bangkok Suvarnabhumi Airport</Link>
+                <Link href="https://www.rentalcars.com/en/airport/gb/lhr/">
+                    Heathrow Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/us/sfo/">
+                    San Francisco Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/ch/zrh/">
+                    Zurich Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/gb/edi/">
+                    Edinburgh Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/is/kef/">
+                    Keflavik Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/us/lax/">
+                    Los Angeles Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/it/mxp/">
+                    Milan Malpensa Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/us/bos/">
+                    Boston Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/nl/ams/">
+                    Amsterdam Schiphol Airport
+                </Link>
+                <Link href="https://www.rentalcars.com/en/airport/th/bkk/">
+                    Bangkok Suvarnabhumi Airport
+                </Link>
             </Flex>
         </TopSectionContainer>
     );
