@@ -15,7 +15,7 @@ To run this project locally —
 -   Prerequisites - You need to have [Node.js](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/) installed on your machine
 -   Clone/Download this project
 -   Navigate to the folder and Run the command `npm i`
--   To run the Dev Server, run `npm start` this will spin up a local dev server on [localhost:3000](localhost:3000) with HMR enabled
+-   To run the Dev Server, run `npm start` this will spin up a local dev server on [http://localhost:3000](http://localhost:3000) with HMR enabled
 -   For optimised production build , run `npm run build`
 -   You can serve this project from `/build` directory
 -   To run the test cases, run `npm test`
