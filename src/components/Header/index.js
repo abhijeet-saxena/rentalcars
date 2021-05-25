@@ -8,7 +8,7 @@ import Search from './search';
 const Header = () => {
     return (
         <Flex background={colors.primaryBlue} justifyContent="center">
-            <HeaderContainer>
+            <HeaderContainer data-testid="heading">
                 <Navigation></Navigation>
                 <h1>Car Hire – Search, Compare &amp; Save</h1>
                 <Search></Search>

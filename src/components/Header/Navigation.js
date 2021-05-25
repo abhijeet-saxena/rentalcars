@@ -13,7 +13,7 @@ const Navigation = () => {
     const closeMenu = () => toggleMenu((show) => !show);
 
     return (
-        <NavContainer>
+        <NavContainer data-testid="navigation">
             {showMenu && (
                 <Drawer closeMenu={closeMenu} heading="Menu">
                     <Flex

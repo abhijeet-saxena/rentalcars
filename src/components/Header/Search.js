@@ -49,9 +49,9 @@ const Search = () => {
     };
 
     return (
-        <SearchContainer>
-            <h2>Let’s find your ideal car</h2>
-            <FilterContainer>
+        <SearchContainer data-testid="search">
+            <h2>Let's find your ideal car</h2>
+            <FilterContainer data-testid="filters">
                 <Flex alignItems="center" width="auto">
                     <input type="checkbox" id="diff-location"></input>
                     <label htmlFor="diff-location">
@@ -67,7 +67,7 @@ const Search = () => {
                     <label htmlFor="driver-age">Driver aged 30 – 65 ?</label>
                 </Flex>
             </FilterContainer>
-            <InputContainer>
+            <InputContainer data-testid="inputs">
                 <Autocomplete>
                     <input
                         type="text"

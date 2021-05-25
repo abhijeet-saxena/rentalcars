@@ -79,7 +79,7 @@ export const SuggestionCard = ({ details, setValue }) => {
     };
 
     return (
-        <Flex gap="1rem" onClick={handleClick}>
+        <Flex gap="1rem" onClick={handleClick} data-testid="drawer">
             <Badge
                 bg={
                     badgeColors[placeType]
@@ -127,7 +127,7 @@ const DrawerContainer = styled(Flex)`
 
 export const Drawer = ({ children, closeMenu = () => {}, heading = '' }) => {
     return (
-        <DrawerContainer>
+        <DrawerContainer data-testid="drawer">
             <Flex
                 className="header"
                 justifyContent="space-between"

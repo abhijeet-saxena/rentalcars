@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rendered Snapshot Matches 1`] = `
+exports[`<Header /> Rendered Snapshot Matches 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -10,9 +10,11 @@ Object {
       >
         <header
           class="sc-jSFjdj KhVbt"
+          data-testid="heading"
         >
           <nav
             class="sc-gKAaRy gXdxYW"
+            data-testid="navigation"
           >
             <a
               href="/rentalcars"
@@ -60,12 +62,14 @@ Object {
           </h1>
           <div
             class="sc-bdnxRM sc-iCoGMd hoHvTM kyIvOV"
+            data-testid="search"
           >
             <h2>
-              Let’s find your ideal car
+              Let's find your ideal car
             </h2>
             <div
               class="sc-bdnxRM sc-fujyAs hoHvTM gIcPtD"
+              data-testid="filters"
             >
               <div
                 class="sc-bdnxRM jxqeQX"
@@ -99,6 +103,7 @@ Object {
             </div>
             <div
               class="sc-bdnxRM sc-pNWdM hoHvTM fazEXI"
+              data-testid="inputs"
             >
               <div
                 class="sc-bdnxRM sc-jrsJWt hoHvTM hLqTlD"
@@ -652,9 +657,11 @@ Object {
     >
       <header
         class="sc-jSFjdj KhVbt"
+        data-testid="heading"
       >
         <nav
           class="sc-gKAaRy gXdxYW"
+          data-testid="navigation"
         >
           <a
             href="/rentalcars"
@@ -702,12 +709,14 @@ Object {
         </h1>
         <div
           class="sc-bdnxRM sc-iCoGMd hoHvTM kyIvOV"
+          data-testid="search"
         >
           <h2>
-            Let’s find your ideal car
+            Let's find your ideal car
           </h2>
           <div
             class="sc-bdnxRM sc-fujyAs hoHvTM gIcPtD"
+            data-testid="filters"
           >
             <div
               class="sc-bdnxRM jxqeQX"
@@ -741,6 +750,7 @@ Object {
           </div>
           <div
             class="sc-bdnxRM sc-pNWdM hoHvTM fazEXI"
+            data-testid="inputs"
           >
             <div
               class="sc-bdnxRM sc-jrsJWt hoHvTM hLqTlD"

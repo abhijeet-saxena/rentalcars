@@ -38,6 +38,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM sc-eCApnc hoHvTM bIYIYn"
+        data-testid="drawer"
       >
         <div
           class="sc-bdnxRM jPJVms header"
@@ -64,6 +65,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM jjvUKX"
+        data-testid="drawer"
       >
         <div
           class="sc-gtsrHT sc-hKFxyN dWcgVK dHQebd"
@@ -188,6 +190,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM sc-eCApnc hoHvTM bIYIYn"
+        data-testid="drawer"
       >
         <div
           class="sc-bdnxRM jPJVms header"
@@ -214,6 +217,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM jjvUKX"
+        data-testid="drawer"
       >
         <div
           class="sc-gtsrHT sc-hKFxyN dWcgVK dHQebd"
@@ -338,6 +342,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM sc-eCApnc hoHvTM bIYIYn"
+        data-testid="drawer"
       >
         <div
           class="sc-bdnxRM jPJVms header"
@@ -364,6 +369,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM jjvUKX"
+        data-testid="drawer"
       >
         <div
           class="sc-gtsrHT sc-hKFxyN dWcgVK dHQebd"
@@ -487,6 +493,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM sc-eCApnc hoHvTM bIYIYn"
+        data-testid="drawer"
       >
         <div
           class="sc-bdnxRM jPJVms header"
@@ -513,6 +520,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM jjvUKX"
+        data-testid="drawer"
       >
         <div
           class="sc-gtsrHT sc-hKFxyN dWcgVK dHQebd"
@@ -633,6 +641,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM sc-eCApnc hoHvTM bIYIYn"
+        data-testid="drawer"
       >
         <div
           class="sc-bdnxRM jPJVms header"
@@ -659,6 +668,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM jjvUKX"
+        data-testid="drawer"
       >
         <div
           class="sc-gtsrHT sc-hKFxyN dWcgVK dHQebd"
@@ -685,6 +695,7 @@ Object {
   "container": <div>
     <div
       class="sc-bdnxRM sc-eCApnc hoHvTM bIYIYn"
+      data-testid="drawer"
     >
       <div
         class="sc-bdnxRM jPJVms header"
@@ -800,6 +811,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM sc-eCApnc hoHvTM bIYIYn"
+        data-testid="drawer"
       >
         <div
           class="sc-bdnxRM jPJVms header"
@@ -826,6 +838,7 @@ Object {
     <div>
       <div
         class="sc-bdnxRM jjvUKX"
+        data-testid="drawer"
       >
         <div
           class="sc-gtsrHT sc-hKFxyN dWcgVK dHQebd"
@@ -852,6 +865,7 @@ Object {
   "container": <div>
     <div
       class="sc-bdnxRM jjvUKX"
+      data-testid="drawer"
     >
       <div
         class="sc-gtsrHT sc-hKFxyN dWcgVK dHQebd"
