@@ -9,11 +9,11 @@ Object {
         class="sc-bdnxRM iDAOKJ"
       >
         <header
-          class="sc-jSFjdj KhVbt"
+          class="sc-gKAaRy griQDh"
           data-testid="heading"
         >
           <nav
-            class="sc-gKAaRy gXdxYW"
+            class="sc-iCoGMd emAaQC"
             data-testid="navigation"
           >
             <a
@@ -61,14 +61,14 @@ Object {
             Car Hire – Search, Compare & Save
           </h1>
           <div
-            class="sc-bdnxRM sc-iCoGMd hoHvTM kyIvOV"
+            class="sc-bdnxRM sc-fujyAs hoHvTM dsvjyw"
             data-testid="search"
           >
             <h2>
               Let's find your ideal car
             </h2>
             <div
-              class="sc-bdnxRM sc-fujyAs hoHvTM gIcPtD"
+              class="sc-bdnxRM sc-pNWdM hoHvTM jJnneB"
               data-testid="filters"
             >
               <div
@@ -102,11 +102,11 @@ Object {
               </div>
             </div>
             <div
-              class="sc-bdnxRM sc-pNWdM hoHvTM fazEXI"
+              class="sc-bdnxRM sc-jrsJWt hoHvTM fTWbXq"
               data-testid="inputs"
             >
               <div
-                class="sc-bdnxRM sc-jrsJWt hoHvTM hLqTlD"
+                class="sc-bdnxRM sc-kEqXSa hoHvTM gLVzWU"
               >
                 <input
                   aria-label="Enter Location"
@@ -132,6 +132,7 @@ Object {
                   >
                     <select
                       aria-label="Select Pickup Time"
+                      id="pickup-time"
                       name="pickup-time"
                     >
                       <option
@@ -393,6 +394,7 @@ Object {
                   >
                     <select
                       aria-label="Select Drop Time"
+                      id="drop-time"
                       name="drop-time"
                     >
                       <option
@@ -656,11 +658,11 @@ Object {
       class="sc-bdnxRM iDAOKJ"
     >
       <header
-        class="sc-jSFjdj KhVbt"
+        class="sc-gKAaRy griQDh"
         data-testid="heading"
       >
         <nav
-          class="sc-gKAaRy gXdxYW"
+          class="sc-iCoGMd emAaQC"
           data-testid="navigation"
         >
           <a
@@ -708,14 +710,14 @@ Object {
           Car Hire – Search, Compare & Save
         </h1>
         <div
-          class="sc-bdnxRM sc-iCoGMd hoHvTM kyIvOV"
+          class="sc-bdnxRM sc-fujyAs hoHvTM dsvjyw"
           data-testid="search"
         >
           <h2>
             Let's find your ideal car
           </h2>
           <div
-            class="sc-bdnxRM sc-fujyAs hoHvTM gIcPtD"
+            class="sc-bdnxRM sc-pNWdM hoHvTM jJnneB"
             data-testid="filters"
           >
             <div
@@ -749,11 +751,11 @@ Object {
             </div>
           </div>
           <div
-            class="sc-bdnxRM sc-pNWdM hoHvTM fazEXI"
+            class="sc-bdnxRM sc-jrsJWt hoHvTM fTWbXq"
             data-testid="inputs"
           >
             <div
-              class="sc-bdnxRM sc-jrsJWt hoHvTM hLqTlD"
+              class="sc-bdnxRM sc-kEqXSa hoHvTM gLVzWU"
             >
               <input
                 aria-label="Enter Location"
@@ -779,6 +781,7 @@ Object {
                 >
                   <select
                     aria-label="Select Pickup Time"
+                    id="pickup-time"
                     name="pickup-time"
                   >
                     <option
@@ -1040,6 +1043,7 @@ Object {
                 >
                   <select
                     aria-label="Select Drop Time"
+                    id="drop-time"
                     name="drop-time"
                   >
                     <option

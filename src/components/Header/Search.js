@@ -2,14 +2,13 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Flex } from '../../common/components';
 import { colors } from '../../common/helper';
 import { debounce, times } from '../../common/helper';
-import { SuggestionCard } from '../../common/components';
+import { Suggestions } from '../../common/components';
 import {
     SearchContainer,
     FilterContainer,
     DateTime,
     InputContainer,
     Autocomplete,
-    Suggestions,
     Time,
 } from './styles';
 
@@ -23,9 +22,11 @@ const Search = () => {
             setSuggestions([]);
         });
 
-        return document.removeEventListener('click', (e) => {
-            setSuggestions([]);
-        });
+        return () => {
+            document.removeEventListener('click', (e) => {
+                setSuggestions([]);
+            });
+        };
     }, []);
 
     const autoComplete = ({ target: { value } }) => {
@@ -78,24 +79,10 @@ const Search = () => {
                     ></input>
                     {suggestions.length > 0 && (
                         <Suggestions
-                            id="suggestions"
-                            role="alert"
-                            aria-live="assertive"
-                            aria-label={`Search results for ${
-                                search.current.value
-                            }. ${suggestions.reduce(
-                                (acc, item) => (acc += `${item.name}, `),
-                                '',
-                            )}`}
-                        >
-                            {suggestions.map((item) => (
-                                <SuggestionCard
-                                    details={item}
-                                    key={`${item.name}+${item.index}`}
-                                    setValue={setValue}
-                                ></SuggestionCard>
-                            ))}
-                        </Suggestions>
+                            searchVal={search.current.value}
+                            suggArr={suggestions}
+                            setValue={setValue}
+                        ></Suggestions>
                     )}
                     {loading && (
                         <svg
@@ -120,6 +107,7 @@ const Search = () => {
                         <Time>
                             <select
                                 name="pickup-time"
+                                id="pickup-time"
                                 defaultValue="10:30"
                                 aria-label="Select Pickup Time"
                             >
@@ -142,6 +130,7 @@ const Search = () => {
                         <Time>
                             <select
                                 name="drop-time"
+                                id="drop-time"
                                 defaultValue="15:30"
                                 aria-label="Select Drop Time"
                             >

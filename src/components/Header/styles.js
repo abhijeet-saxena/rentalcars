@@ -112,25 +112,6 @@ export const Autocomplete = styled(Flex)`
     }
 `;
 
-export const Suggestions = styled(Flex)`
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    flex-direction: column;
-    background: ${colors.textLight};
-    border: solid 1px ${colors.textDark};
-    border-radius: 4px;
-    cursor: pointer;
-    > div {
-        min-height: 54px;
-        padding: 0.5rem;
-        border-bottom: solid 1px ${colors.border};
-        &:hover {
-            background: ${colors.primaryBlueLight};
-        }
-    }
-`;
-
 export const DateTime = styled(Flex)`
     flex-direction: column;
     gap: 0.75rem;

@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <main
-        class="sc-jSFjdj kcfAQr"
+        class="sc-gKAaRy eJHWMn"
       >
         <div
-          class="sc-bdnxRM sc-gKAaRy hoHvTM fBYkBf"
+          class="sc-bdnxRM sc-iCoGMd hoHvTM cFhNun"
           data-testid="showcase-container"
         >
           <h3>
@@ -65,7 +65,7 @@ Object {
           />
         </div>
         <div
-          class="sc-bdnxRM sc-iCoGMd hoHvTM fpjuMg"
+          class="sc-bdnxRM sc-fujyAs hoHvTM fFwOBl"
           data-testid="features-container"
         >
           <div
@@ -124,7 +124,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdnxRM sc-fujyAs hoHvTM jZtIxR"
+          class="sc-bdnxRM sc-pNWdM hoHvTM bzzxuf"
           data-testid="offers-container"
         >
           <div
@@ -185,7 +185,7 @@ Object {
           </div>
         </div>
         <section
-          class="sc-pNWdM iqoRtj"
+          class="sc-jrsJWt dCnMxR"
         >
           <div
             class="sc-bdnxRM hoHvTM"
@@ -325,14 +325,14 @@ Object {
           </div>
         </section>
         <section
-          class="sc-jrsJWt eoXehl"
+          class="sc-kEqXSa hstede"
           data-testid="faq"
         >
           <h3>
             Frequently Asked Questions
           </h3>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="faq-1"
           >
             <p>
@@ -357,7 +357,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="faq-2"
           >
             <p>
@@ -368,7 +368,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="faq-3"
           >
             <p>
@@ -379,7 +379,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="faq-4"
           >
             <p>
@@ -390,7 +390,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="faq-5"
           >
             <p>
@@ -411,7 +411,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="faq-6"
           >
             <p>
@@ -423,14 +423,14 @@ Object {
           </div>
         </section>
         <section
-          class="sc-jrsJWt eoXehl"
+          class="sc-kEqXSa hstede"
           data-testid="additional-info"
         >
           <h3>
             Additional Information
           </h3>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="related-searches"
           >
             <p>
@@ -544,7 +544,7 @@ Object {
             </ul>
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="popular-destinations"
           >
             <p>
@@ -714,7 +714,7 @@ Object {
             </ul>
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="airports"
           >
             <p>
@@ -885,7 +885,7 @@ Object {
              
           </div>
           <div
-            class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+            class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
             data-testid="car-hire-companies"
           >
             <p>
@@ -1053,10 +1053,10 @@ Object {
   </body>,
   "container": <div>
     <main
-      class="sc-jSFjdj kcfAQr"
+      class="sc-gKAaRy eJHWMn"
     >
       <div
-        class="sc-bdnxRM sc-gKAaRy hoHvTM fBYkBf"
+        class="sc-bdnxRM sc-iCoGMd hoHvTM cFhNun"
         data-testid="showcase-container"
       >
         <h3>
@@ -1112,7 +1112,7 @@ Object {
         />
       </div>
       <div
-        class="sc-bdnxRM sc-iCoGMd hoHvTM fpjuMg"
+        class="sc-bdnxRM sc-fujyAs hoHvTM fFwOBl"
         data-testid="features-container"
       >
         <div
@@ -1171,7 +1171,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdnxRM sc-fujyAs hoHvTM jZtIxR"
+        class="sc-bdnxRM sc-pNWdM hoHvTM bzzxuf"
         data-testid="offers-container"
       >
         <div
@@ -1232,7 +1232,7 @@ Object {
         </div>
       </div>
       <section
-        class="sc-pNWdM iqoRtj"
+        class="sc-jrsJWt dCnMxR"
       >
         <div
           class="sc-bdnxRM hoHvTM"
@@ -1372,14 +1372,14 @@ Object {
         </div>
       </section>
       <section
-        class="sc-jrsJWt eoXehl"
+        class="sc-kEqXSa hstede"
         data-testid="faq"
       >
         <h3>
           Frequently Asked Questions
         </h3>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="faq-1"
         >
           <p>
@@ -1404,7 +1404,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="faq-2"
         >
           <p>
@@ -1415,7 +1415,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="faq-3"
         >
           <p>
@@ -1426,7 +1426,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="faq-4"
         >
           <p>
@@ -1437,7 +1437,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="faq-5"
         >
           <p>
@@ -1458,7 +1458,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="faq-6"
         >
           <p>
@@ -1470,14 +1470,14 @@ Object {
         </div>
       </section>
       <section
-        class="sc-jrsJWt eoXehl"
+        class="sc-kEqXSa hstede"
         data-testid="additional-info"
       >
         <h3>
           Additional Information
         </h3>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="related-searches"
         >
           <p>
@@ -1591,7 +1591,7 @@ Object {
           </ul>
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="popular-destinations"
         >
           <p>
@@ -1761,7 +1761,7 @@ Object {
           </ul>
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="airports"
         >
           <p>
@@ -1932,7 +1932,7 @@ Object {
            
         </div>
         <div
-          class="sc-bdnxRM sc-kEqXSa hoHvTM oHUeo"
+          class="sc-bdnxRM sc-iqAclL hoHvTM fugFfD"
           data-testid="car-hire-companies"
         >
           <p>

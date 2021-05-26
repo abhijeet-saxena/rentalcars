@@ -147,3 +147,47 @@ export const Drawer = ({ children, closeMenu = () => {}, heading = '' }) => {
         </DrawerContainer>
     );
 };
+
+const SuggestionsContainer = styled(Flex)`
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    flex-direction: column;
+    background: ${colors.textLight};
+    border: solid 1px ${colors.textDark};
+    border-radius: 4px;
+    cursor: pointer;
+    > div {
+        min-height: 54px;
+        padding: 0.5rem;
+        border-bottom: solid 1px ${colors.border};
+        &:hover {
+            background: ${colors.primaryBlueLight};
+        }
+    }
+`;
+
+export const Suggestions = ({
+    searchVal = '',
+    suggArr = [],
+    setValue = () => {},
+}) => (
+    <SuggestionsContainer
+        data-testid="suggestions"
+        id="suggestions"
+        role="alert"
+        aria-live="assertive"
+        aria-label={`Search results for ${searchVal}. ${suggArr.reduce(
+            (acc, item) => (acc += `${item.name}, `),
+            '',
+        )}`}
+    >
+        {suggArr.map((item) => (
+            <SuggestionCard
+                details={item}
+                key={`${item.name}+${item.index}`}
+                setValue={setValue}
+            ></SuggestionCard>
+        ))}
+    </SuggestionsContainer>
+);

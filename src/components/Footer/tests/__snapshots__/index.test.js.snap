@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <footer
-        class="sc-jSFjdj cjOEBa"
+        class="sc-gKAaRy dQESZe"
       >
         <ul
-          class="sc-gKAaRy jyCKcZ"
+          class="sc-iCoGMd joATZ"
           data-testid="site-links"
         >
           <li>
@@ -78,7 +78,7 @@ Object {
            
         </ul>
         <div
-          class="sc-bdnxRM sc-iCoGMd hoHvTM ihMhKh"
+          class="sc-bdnxRM sc-fujyAs hoHvTM hiegXk"
           data-testid="copyright"
         >
           <section>
@@ -91,7 +91,7 @@ Object {
             Booking.com Transport Limited (FCA Firm Reference No 777648) is an Appointed Representative of Cover Genius Limited, which is authorised and registered by the Financial Conduct Authority, Firm Reference No 750711. Traveljigsaw Insurance Limited is incorporated in Malta and is authorised by the Malta Financial Services Authority to carry on the business of insurance in terms of the Insurance Business Act 1998. Company Registration Number: C82173 Registered Office, Development House, St Anne Street, Floriana, FRN 9010, Malta.
           </section>
           <div
-            class="sc-bdnxRM sc-fujyAs hoHvTM dksZDF"
+            class="sc-bdnxRM sc-pNWdM hoHvTM iUCHmb"
           >
             <img
               alt=""
@@ -139,10 +139,10 @@ Object {
   </body>,
   "container": <div>
     <footer
-      class="sc-jSFjdj cjOEBa"
+      class="sc-gKAaRy dQESZe"
     >
       <ul
-        class="sc-gKAaRy jyCKcZ"
+        class="sc-iCoGMd joATZ"
         data-testid="site-links"
       >
         <li>
@@ -211,7 +211,7 @@ Object {
          
       </ul>
       <div
-        class="sc-bdnxRM sc-iCoGMd hoHvTM ihMhKh"
+        class="sc-bdnxRM sc-fujyAs hoHvTM hiegXk"
         data-testid="copyright"
       >
         <section>
@@ -224,7 +224,7 @@ Object {
           Booking.com Transport Limited (FCA Firm Reference No 777648) is an Appointed Representative of Cover Genius Limited, which is authorised and registered by the Financial Conduct Authority, Firm Reference No 750711. Traveljigsaw Insurance Limited is incorporated in Malta and is authorised by the Malta Financial Services Authority to carry on the business of insurance in terms of the Insurance Business Act 1998. Company Registration Number: C82173 Registered Office, Development House, St Anne Street, Floriana, FRN 9010, Malta.
         </section>
         <div
-          class="sc-bdnxRM sc-fujyAs hoHvTM dksZDF"
+          class="sc-bdnxRM sc-pNWdM hoHvTM iUCHmb"
         >
           <img
             alt=""
