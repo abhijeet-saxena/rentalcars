@@ -65,7 +65,7 @@ export const SuggestionCard = ({ details, setValue }) => {
         A: { bg: colors.badgeRed, text: 'Airport' },
         C: { bg: colors.badgeBlue, text: 'City' },
         T: { bg: colors.badgeGray, text: 'Station' },
-        D: { bg: colors.badgeYellow, text: 'Region' },
+        D: { bg: colors.secondaryGreen, text: 'District' },
         P: { bg: colors.badgeYellow, text: 'Region' },
     };
 
@@ -78,16 +78,18 @@ export const SuggestionCard = ({ details, setValue }) => {
         setValue(value);
     };
 
+    console.log(details);
+
     return (
         <Flex gap="1rem" onClick={handleClick} data-testid="drawer">
             <Badge
                 bg={
                     badgeColors[placeType]
                         ? badgeColors[placeType].bg
-                        : colors.textLight
+                        : colors.secondaryGreen
                 }
             >
-                {badgeColors[placeType] ? badgeColors[placeType].text : ''}
+                {badgeColors[placeType] ? badgeColors[placeType].text : 'Place'}
             </Badge>
             <div>
                 <p>

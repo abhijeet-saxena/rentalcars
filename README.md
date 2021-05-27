@@ -53,7 +53,7 @@ To run this project locally —
 1. Lighthouse - [Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fitsrockyy.me%2Frentalcars%2F)
 2. Page Speed Insights - [Mobile](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fitsrockyy.me%2Frentalcars%2F&tab=mobile) | [Desktop](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fitsrockyy.me%2Frentalcars%2F&tab=desktop)
 
-## Technologies Used
+## Technologies & Tools Used
 
 -   [React.js](https://reactjs.org) and [Node.js](https://nodejs.org/en/)
 
@@ -70,5 +70,3 @@ To run this project locally —
 -   Accessibility - [Chrome Vox Screen Reader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn)
 
 -   Search Suggestions API ([Example](https://www.rentalcars.com/FTSAutocomplete.do?solrIndex=fts_en&solrRows=6&solrTerm=search-string"))
-
-Made with ️❤︎ by **[Abhijeet Saxena](https://itsrockyy.github.io/ 'Abhijeet Saxena')**
