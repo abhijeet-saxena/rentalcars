@@ -3,7 +3,7 @@ export const mockedResp = ({ target: { value } }) => {
     if (value === 'asdf123')
         return [
             {
-                name: 'No results found.',
+                name: 'No results found',
             },
         ];
 

@@ -118,6 +118,6 @@ describe('Autocomplete Working', () => {
             ></Suggestions>,
         );
         expect(suggestions.children.length).toBe(1);
-        expect(suggestions).toHaveTextContent('No results found.');
+        expect(suggestions).toHaveTextContent('No results found');
     });
 });

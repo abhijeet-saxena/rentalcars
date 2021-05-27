@@ -58,7 +58,7 @@ export const SuggestionCard = ({ details, setValue }) => {
         iata = '',
     } = details;
 
-    if (name === 'No results found.')
+    if (name === 'No results found')
         return <p style={{ padding: '0.5rem' }}>{name}</p>;
 
     const badgeColors = {
@@ -77,8 +77,6 @@ export const SuggestionCard = ({ details, setValue }) => {
         if (country) value += `, ${country}`;
         setValue(value);
     };
-
-    console.log(details);
 
     return (
         <Flex gap="1rem" onClick={handleClick} data-testid="drawer">
